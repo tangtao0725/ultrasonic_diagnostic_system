@@ -1,0 +1,1120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABOUT	inputMethod/PinyinFrame.cpp	/^const char ABOUT[]="About";$/;"	v
+AIB	parameter.h	/^	double AIB;$/;"	m	struct:boneParameter
+AIB	parameter.h	/^enum curve{BC = 0,AIB = 1,SCS = 2};$/;"	e	enum:curve
+AR	Makefile	/^AR            = arm-linux-ar cqs$/;"	m
+Add	inputMethod/PinyinFrame.cpp	/^       Divide, Multiply, Add, Subtract, Decimal, Equal,$/;"	e	enum:__anon1	file:
+AllSelect	mymodel.h	/^	void AllSelect(bool flag,int sum)$/;"	f	class:MyModel
+AllSelect	myview.cpp	/^void MyView::AllSelect(bool flag)$/;"	f	class:MyView
+AltCode	inputMethod/PinyinFrame.cpp	/^       ShiftCode, CtrlCode, AltCode, SpaceCode, BackSlash,$/;"	e	enum:__anon1	file:
+BC	parameter.h	/^	double BC;$/;"	m	struct:boneParameter
+BC	parameter.h	/^enum curve{BC = 0,AIB = 1,SCS = 2};$/;"	e	enum:curve
+BOOK_MARK1	inputMethod/PinyinFrame.cpp	/^const int BOOK_MARK1	=0x300a;$/;"	v
+BOOK_MARK2	inputMethod/PinyinFrame.cpp	/^const int BOOK_MARK2	=0x300b;$/;"	v
+BSCode	inputMethod/PinyinFrame.cpp	/^enum { BSCode = 0x80, TabCode, CapsCode, RetCode, $/;"	e	enum:__anon1	file:
+BackSlash	inputMethod/PinyinFrame.cpp	/^       ShiftCode, CtrlCode, AltCode, SpaceCode, BackSlash,$/;"	e	enum:__anon1	file:
+Blank	inputMethod/PinyinFrame.cpp	/^       UpCode, LeftCode, DownCode, RightCode, Blank, Expand,$/;"	e	enum:__anon1	file:
+CC	Makefile	/^CC            = arm-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COLON_MARK	inputMethod/PinyinFrame.cpp	/^const int COLON_MARK	=0xff1a;$/;"	v
+COMMA_MARK	inputMethod/PinyinFrame.cpp	/^const int COMMA_MARK	=0xff0c;$/;"	v
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+CONFIG_H	inputMethod/Config.h	2;"	d
+CONFIG_VALUES	inputMethod/Config.h	/^typedef std::map<std::string,std::string> CONFIG_VALUES;$/;"	t
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = arm-linux-g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CapsCode	inputMethod/PinyinFrame.cpp	/^enum { BSCode = 0x80, TabCode, CapsCode, RetCode, $/;"	e	enum:__anon1	file:
+CharFrequencyPair	inputMethod/scim_pinyin.h	/^typedef std::pair<ucs4_t, uint32>     CharFrequencyPair;$/;"	t
+CharFrequencyPairEqualToByChar	inputMethod/scim_pinyin.h	/^class CharFrequencyPairEqualToByChar {$/;"	c
+CharFrequencyPairGreaterThanByChar	inputMethod/scim_pinyin.h	/^class CharFrequencyPairGreaterThanByChar {$/;"	c
+CharFrequencyPairGreaterThanByCharAndFrequency	inputMethod/scim_pinyin.h	/^class CharFrequencyPairGreaterThanByCharAndFrequency {$/;"	c
+CharFrequencyPairGreaterThanByFrequency	inputMethod/scim_pinyin.h	/^class CharFrequencyPairGreaterThanByFrequency {$/;"	c
+CharFrequencyPairLessThanByChar	inputMethod/scim_pinyin.h	/^class CharFrequencyPairLessThanByChar {$/;"	c
+CharFrequencyPairLessThanByCharAndFrequency	inputMethod/scim_pinyin.h	/^class CharFrequencyPairLessThanByCharAndFrequency {$/;"	c
+CharFrequencyPairLessThanByFrequency	inputMethod/scim_pinyin.h	/^class CharFrequencyPairLessThanByFrequency {$/;"	c
+CharVector	inputMethod/scim_pinyin.h	/^typedef std::vector<ucs4_t>           CharVector;$/;"	t
+Coef	win_2.h	/^	vector<double> Coef;$/;"	m	class:Win_2
+Config	inputMethod/Config.cpp	/^Config::Config(const char* config_file)$/;"	f	class:Config
+Config	inputMethod/Config.h	/^class Config$/;"	c
+CtrlCode	inputMethod/PinyinFrame.cpp	/^       ShiftCode, CtrlCode, AltCode, SpaceCode, BackSlash,$/;"	e	enum:__anon1	file:
+DATABASESTAND_H	sqlite/databaseStand.h	7;"	d
+DATA_H	data.h	5;"	d
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = ..\/..\/QtEmbedded-4.5.0-arm\/mkspecs\/common\/g++.conf \\$/;"	m
+DRAW_H	draw.h	5;"	d
+Data	data.cpp	/^Data::Data()$/;"	f	class:Data
+Data	data.h	/^class Data:public QWidget$/;"	c
+DatabaseStand	sqlite/databaseStand.cpp	/^DatabaseStand::DatabaseStand(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:DatabaseStand
+DatabaseStand	sqlite/databaseStand.h	/^class DatabaseStand:public QWidget$/;"	c
+Decimal	inputMethod/PinyinFrame.cpp	/^       Divide, Multiply, Add, Subtract, Decimal, Equal,$/;"	e	enum:__anon1	file:
+Divide	inputMethod/PinyinFrame.cpp	/^       Divide, Multiply, Add, Subtract, Decimal, Equal,$/;"	e	enum:__anon1	file:
+DownCode	inputMethod/PinyinFrame.cpp	/^       UpCode, LeftCode, DownCode, RightCode, Blank, Expand,$/;"	e	enum:__anon1	file:
+Draw	draw.cpp	/^Draw::Draw(QWidget* parent,Qt::WindowFlags flags)$/;"	f	class:Draw
+Draw	draw.h	/^class Draw:public QWidget$/;"	c
+Equal	inputMethod/PinyinFrame.cpp	/^       Divide, Multiply, Add, Subtract, Decimal, Equal,$/;"	e	enum:__anon1	file:
+Escape	inputMethod/PinyinFrame.cpp	/^       Percent, Sqrt, Inverse, Escape };$/;"	e	enum:__anon1	file:
+Expand	inputMethod/PinyinFrame.cpp	/^       UpCode, LeftCode, DownCode, RightCode, Blank, Expand,$/;"	e	enum:__anon1	file:
+FILELISTMODEL_H	filelistmodel.h	2;"	d
+FILELISTVIEW_H	filelistview.h	2;"	d
+FILE_VERSION	inputMethod/public.h	15;"	d
+FileListModel	filelistmodel.cpp	/^ FileListModel::FileListModel(QObject *parent)$/;"	f	class:FileListModel
+FileListModel	filelistmodel.h	/^ class FileListModel : public QAbstractListModel$/;"	c
+FilelistView	filelistview.cpp	/^ FilelistView::FilelistView(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:FilelistView
+FilelistView	filelistview.h	/^ class FilelistView : public QWidget$/;"	c
+GetKey	inputMethod/PinyinFrame.cpp	/^bool QPinyinFrame::GetKey(int u, int k\/*,int m*\/)\/*int unicode, int keycode, int modifiers*\/$/;"	f	class:QPinyinFrame
+INCPATH	Makefile	/^INCPATH       = -I..\/..\/QtEmbedded-4.5.0-arm\/mkspecs\/qws\/linux-arm-g++ -I. -I..\/..\/QtEmbedded-4.5.0-arm\/include\/QtCore -I..\/..\/QtEmbedded-4.5.0-arm\/include\/QtNetwork -I..\/..\/QtEmbedded-4.5.0-arm\/include\/QtGui -I..\/..\/QtEmbedded-4.5.0-arm\/include\/QtSql -I..\/..\/QtEmbedded-4.5.0-arm\/include -I. -Isqlite -IinputMethod -I\/opt\/sqlite-3.7.0\/build\/target\/include -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+Inverse	inputMethod/PinyinFrame.cpp	/^       Percent, Sqrt, Inverse, Escape };$/;"	e	enum:__anon1	file:
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/usr\/local\/Trolltech\/QtEmbedded-4.5.0-arm\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/Trolltech\/QtEmbedded-4.5.0-arm\/lib -L\/opt\/sqlite-3.7.0\/build\/target\/lib -lsqlite3 -lQtSql -L\/tslib\/lib -L\/usr\/local\/Trolltech\/QtEmbedded-4.5.0-arm\/lib -lQtGui -lts -lQtNetwork -lQtCore -lm -lrt -ldl -lpthread$/;"	m
+LINK	Makefile	/^LINK          = arm-linux-g++$/;"	m
+LeftCode	inputMethod/PinyinFrame.cpp	/^       UpCode, LeftCode, DownCode, RightCode, Blank, Expand,$/;"	e	enum:__anon1	file:
+MAINWIN_H	mainwin.h	6;"	d
+MAKEPHRASE_CLOSE	inputMethod/PinyinFrame.cpp	/^const char MAKEPHRASE_CLOSE[] = "\\xe3\\x80\\x91";$/;"	v
+MAKEPHRASE_OPEN	inputMethod/PinyinFrame.cpp	/^const char MAKEPHRASE_OPEN [] = "\\xe3\\x80\\x90\\xe9\\x80\\xa0\\xe8\\xaf\\x8d\\x20";$/;"	v
+MAXLEN	inputMethod/Config.cpp	/^const int MAXLEN = 256;$/;"	v
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MYMODEL_H	mymodel.h	2;"	d
+MYVIEW_H	myview.h	2;"	d
+Mainwin	mainwin.cpp	/^Mainwin::Mainwin(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Mainwin
+Mainwin	mainwin.h	/^class Mainwin:public QWidget$/;"	c
+Margin	draw.h	/^	enum{Margin = 10};$/;"	e	enum:Draw::__anon2
+Margin	plotter.h	/^	enum{Margin = 10};$/;"	e	enum:Plotter::__anon3
+Margin1	plotter.h	/^	enum{Margin1 = 40};$/;"	e	enum:Plotter::__anon4
+Multiply	inputMethod/PinyinFrame.cpp	/^       Divide, Multiply, Add, Subtract, Decimal, Equal,$/;"	e	enum:__anon1	file:
+MyModel	mymodel.h	/^	MyModel(){}$/;"	f	class:MyModel
+MyModel	mymodel.h	/^class MyModel : public QStringListModel$/;"	c
+MyView	myview.cpp	/^MyView::MyView(QWidget* parent):QListView(parent)$/;"	f	class:MyView
+MyView	myview.h	/^class MyView:public QListView$/;"	c
+NoneSelect	myview.cpp	/^void MyView::NoneSelect(bool flag)$/;"	f	class:MyView
+OBJECTS	Makefile	/^OBJECTS       = data.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+Opti	inputMethod/PinyinFrame.cpp	/^       Opti, ResetDict,$/;"	e	enum:__anon1	file:
+PARAMETER_H	parameter.h	5;"	d
+PERIOD_MARK	inputMethod/PinyinFrame.cpp	/^const int PERIOD_MARK	=0x3002;$/;"	v
+PINYINENGIN_H	inputMethod/PinyinEngine.h	2;"	d
+PINYINFRM_H	inputMethod/PinyinFrame.h	20;"	d
+PINYINPhrase_H	inputMethod/PinyinPhrase.h	2;"	d
+PINYIN_X	inputMethod/PinyinFrame.cpp	/^const int PINYIN_X = 2;$/;"	v
+PINYIN_Y	inputMethod/PinyinFrame.cpp	/^const int PINYIN_Y = 2;$/;"	v
+PLOTTER_H	plotter.h	3;"	d
+PUBLIC_H	inputMethod/public.h	2;"	d
+Percent	inputMethod/PinyinFrame.cpp	/^       Percent, Sqrt, Inverse, Escape };$/;"	e	enum:__anon1	file:
+PhraseOffset	inputMethod/PinyinPhrase.h	/^typedef uint32				PhraseOffset;$/;"	t
+PhraseOffsetFrequencyPair	inputMethod/PinyinPhrase.h	/^typedef std::pair<uint32, uint32>	PhraseOffsetFrequencyPair;$/;"	t
+PhraseOffsetFrequencyPairGreaterThanByFrequency	inputMethod/PinyinPhrase.h	/^class PhraseOffsetFrequencyPairGreaterThanByFrequency$/;"	c
+PhraseOffsetFrequencyPairGreaterThanByPhraseOffset	inputMethod/PinyinPhrase.h	/^class PhraseOffsetFrequencyPairGreaterThanByPhraseOffset$/;"	c
+PhraseOffsetFrequencyPairVector	inputMethod/PinyinPhrase.h	/^typedef std::vector<PhraseOffsetFrequencyPair> PhraseOffsetFrequencyPairVector;$/;"	t
+PhraseOffsetToFreqMap	inputMethod/PinyinPhrase.h	/^typedef std::map<uint32,uint32>         PhraseOffsetToFreqMap;$/;"	t
+PhraseOffsetVector	inputMethod/PinyinPhrase.h	/^typedef std::vector<PhraseOffset>	PhraseOffsetVector;$/;"	t
+PhrasePinyinKeyEqualTo	inputMethod/PinyinPhrase.h	/^class PhrasePinyinKeyEqualTo$/;"	c
+PhraseString	inputMethod/PinyinPhrase.h	/^typedef std::vector<ucs4_t>		PhraseString;$/;"	t
+PhraseStringVector	inputMethod/PinyinPhrase.h	/^typedef std::vector<PhraseString>       PhraseStringVector;$/;"	t
+PickHeight	inputMethod/PinyinFrame.h	/^    	short keyHeight,PickHeight, xoffs, $/;"	m	class:QPinyinFrame
+PinyinEngine	inputMethod/PinyinEngine.cpp	/^PinyinEngine::PinyinEngine(const char *table_file,const char *phrase_index_file)$/;"	f	class:PinyinEngine
+PinyinEngine	inputMethod/PinyinEngine.h	/^class PinyinEngine$/;"	c
+PinyinEntry	inputMethod/scim_pinyin.h	/^	PinyinEntry (PinyinKey key)$/;"	f	class:PinyinEntry
+PinyinEntry	inputMethod/scim_pinyin.h	/^	PinyinEntry (const PinyinEntry &entry)$/;"	f	class:PinyinEntry
+PinyinEntry	inputMethod/scim_pinyin.h	/^	PinyinEntry (const PinyinValidator &validator,$/;"	f	class:PinyinEntry
+PinyinEntry	inputMethod/scim_pinyin.h	/^class PinyinEntry$/;"	c
+PinyinEntryVector	inputMethod/scim_pinyin.h	/^	typedef std::vector<PinyinEntry> PinyinEntryVector;$/;"	t	class:PinyinTable
+PinyinFinal	inputMethod/scim_pinyin.h	/^enum PinyinFinal$/;"	g
+PinyinInitial	inputMethod/scim_pinyin.h	/^enum PinyinInitial$/;"	g
+PinyinKey	inputMethod/scim_pinyin.h	/^	PinyinKey (PinyinInitial initial = SCIM_PINYIN_ZeroInitial,$/;"	f	class:PinyinKey
+PinyinKey	inputMethod/scim_pinyin.h	/^	PinyinKey (const PinyinValidator &validator,$/;"	f	class:PinyinKey
+PinyinKey	inputMethod/scim_pinyin.h	/^class PinyinKey$/;"	c
+PinyinKeyExactEqualTo	inputMethod/scim_pinyin.h	/^class PinyinKeyExactEqualTo$/;"	c
+PinyinKeyExactLessThan	inputMethod/scim_pinyin.h	/^class PinyinKeyExactLessThan$/;"	c
+PinyinKeyVector	inputMethod/scim_pinyin.h	/^typedef std::vector<PinyinKey>        PinyinKeyVector;$/;"	t
+PinyinParsedKey	inputMethod/scim_pinyin.h	/^	PinyinParsedKey (int pos = 0,$/;"	f	struct:PinyinParsedKey
+PinyinParsedKey	inputMethod/scim_pinyin.h	/^struct PinyinParsedKey : public PinyinKey$/;"	s
+PinyinParsedKeyVector	inputMethod/scim_pinyin.h	/^typedef std::vector<PinyinParsedKey>  PinyinParsedKeyVector;$/;"	t
+PinyinPhraseEntry	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseEntry::PinyinPhraseEntry(PinyinPhraseKey& key):m_key(key)$/;"	f	class:PinyinPhraseEntry
+PinyinPhraseEntry	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseEntry::PinyinPhraseEntry(const char*pinyin)$/;"	f	class:PinyinPhraseEntry
+PinyinPhraseEntry	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseEntry::PinyinPhraseEntry(std::istream &is)$/;"	f	class:PinyinPhraseEntry
+PinyinPhraseEntry	inputMethod/PinyinPhrase.h	/^class PinyinPhraseEntry$/;"	c
+PinyinPhraseEntryVector	inputMethod/PinyinPhrase.h	/^typedef std::vector<PinyinPhraseEntry>	PinyinPhraseEntryVector;$/;"	t
+PinyinPhraseEntryVectorPosRangePair	inputMethod/PinyinPhrase.h	/^	PinyinPhraseEntryVectorPosRangePair;$/;"	t
+PinyinPhraseKey	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseKey::PinyinPhraseKey()$/;"	f	class:PinyinPhraseKey
+PinyinPhraseKey	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseKey::PinyinPhraseKey(const char *keystr)$/;"	f	class:PinyinPhraseKey
+PinyinPhraseKey	inputMethod/PinyinPhrase.h	/^class PinyinPhraseKey$/;"	c
+PinyinPhraseKeyLessThan	inputMethod/PinyinPhrase.h	/^class PinyinPhraseKeyLessThan$/;"	c
+PinyinPhraseKeyVector	inputMethod/PinyinPhrase.h	/^typedef std::vector<PinyinPhraseKey>	PinyinPhraseKeyVector;$/;"	t
+PinyinPhraseTable	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseTable::PinyinPhraseTable(const char* indexfile)$/;"	f	class:PinyinPhraseTable
+PinyinPhraseTable	inputMethod/PinyinPhrase.h	/^class PinyinPhraseTable$/;"	c
+PinyinTable	inputMethod/scim_pinyin.cpp	/^PinyinTable::PinyinTable (\/*(const PinyinCustomSettings &custom,*\/$/;"	f	class:PinyinTable
+PinyinTable	inputMethod/scim_pinyin.cpp	/^PinyinTable::PinyinTable (\/*const PinyinCustomSettings &custom,*\/$/;"	f	class:PinyinTable
+PinyinTable	inputMethod/scim_pinyin.h	/^class PinyinTable$/;"	c
+PinyinToken	inputMethod/scim_pinyin.h	/^struct PinyinToken$/;"	s
+PinyinTone	inputMethod/scim_pinyin.h	/^enum PinyinTone$/;"	g
+PinyinValidator	inputMethod/scim_pinyin.cpp	/^PinyinValidator::PinyinValidator (\/*const PinyinCustomSettings &custom,(*\/$/;"	f	class:PinyinValidator
+PinyinValidator	inputMethod/scim_pinyin.h	/^class PinyinValidator$/;"	c
+PinyinValidatorBitmapSize	inputMethod/scim_pinyin.h	/^const int PinyinValidatorBitmapSize = (SCIM_PINYIN_InitialNumber *$/;"	v
+Player	player.cpp	/^Player::Player(QWidget * parent)$/;"	f	class:Player
+Player	player.h	/^class Player : public QWidget$/;"	c
+Plotter	plotter.cpp	/^Plotter::Plotter(QWidget* parent,Qt::WindowFlags flags)$/;"	f	class:Plotter
+Plotter	plotter.h	/^class Plotter:public QWidget$/;"	c
+QMAKE	Makefile	/^QMAKE         = \/usr\/local\/Trolltech\/QtEmbedded-4.5.0-arm\/bin\/amake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = project$/;"	m
+QPinyinFrame	inputMethod/PinyinFrame.cpp	/^QPinyinFrame::QPinyinFrame(QWidget* parent,Qt::WindowFlags flags) :$/;"	f	class:QPinyinFrame
+QPinyinFrame	inputMethod/PinyinFrame.h	/^class QPinyinFrame : public QFrame,  public QWSInputMethod$/;"	c
+QUESTION_MARK	inputMethod/PinyinFrame.cpp	/^const int QUESTION_MARK	=0xff1f;$/;"	v
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+ResetDict	inputMethod/PinyinFrame.cpp	/^       Opti, ResetDict,$/;"	e	enum:__anon1	file:
+RetCode	inputMethod/PinyinFrame.cpp	/^enum { BSCode = 0x80, TabCode, CapsCode, RetCode, $/;"	e	enum:__anon1	file:
+RightCode	inputMethod/PinyinFrame.cpp	/^       UpCode, LeftCode, DownCode, RightCode, Blank, Expand,$/;"	e	enum:__anon1	file:
+SCIM_MAX_CHAR_FREQUENCY	inputMethod/scim_pinyin.h	42;"	d
+SCIM_PINYIN_A	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_A    = 1,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ai	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ai   = 2,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_An	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_An   = 3,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ang	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ang  = 4,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ao	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ao   = 5,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Bo	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Bo  = 1,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Chi	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Chi = 3,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Ci	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ci  = 2,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_De	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_De  = 4,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_E	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_E    = 6,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ei	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ei   = 7,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_En	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_En   = 8,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Eng	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Eng  = 9,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Er	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Er   =10,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Fifth	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Fifth  = 5,$/;"	e	enum:PinyinTone
+SCIM_PINYIN_FinalNumber	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_FinalNumber = SCIM_PINYIN_LastFinal + 1$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_First	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_First  = 1,$/;"	e	enum:PinyinTone
+SCIM_PINYIN_Fo	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Fo  = 5,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Fourth	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Fourth = 4,$/;"	e	enum:PinyinTone
+SCIM_PINYIN_Ge	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ge  = 6,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_He	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_He  = 7,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_I	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_I    =11,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ia	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ia   =12,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ian	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ian  =13,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Iang	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Iang =14,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Iao	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Iao  =15,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ie	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ie   =16,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_In	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_In   =17,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ing	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ing  =18,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_InitialNumber	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_InitialNumber = SCIM_PINYIN_LastInitial + 1$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Iong	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Iong =19,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Iou	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Iou  =20,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Iu	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Iu   =21,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ji	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ji  = 8,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_KEY_MAXLEN	inputMethod/scim_pinyin.h	41;"	d
+SCIM_PINYIN_Ke	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ke  = 9,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_LastFinal	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_LastFinal = SCIM_PINYIN_Vn,	\/**< the last final *\/$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_LastInitial	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_LastInitial = SCIM_PINYIN_Zhi,	\/**< the last initial *\/$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_LastTone	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_LastTone = SCIM_PINYIN_Fifth, \/**< the last tone *\/$/;"	e	enum:PinyinTone
+SCIM_PINYIN_Le	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Le  =10,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Mo	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Mo  =11,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Ne	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ne  =12,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Ng	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ng   =22,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_O	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_O    =23,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ong	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ong  =24,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ou	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ou   =25,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Po	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Po  =13,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Qi	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Qi  =14,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Ri	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ri  =15,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Second	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Second = 2,$/;"	e	enum:PinyinTone
+SCIM_PINYIN_Shi	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Shi =17,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Si	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Si  =16,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Te	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Te  =18,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Third	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Third  = 3,$/;"	e	enum:PinyinTone
+SCIM_PINYIN_ToneNumber	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_ToneNumber = SCIM_PINYIN_LastTone + 1$/;"	e	enum:PinyinTone
+SCIM_PINYIN_U	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_U    =26,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ua	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ua   =27,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Uai	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Uai  =28,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Uan	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Uan  =29,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Uang	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Uang =30,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ue	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ue   =31,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Uei	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Uei  =32,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Uen	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Uen  =33,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ueng	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ueng =34,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ui	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ui   =35,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Un	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Un   =36,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Uo	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Uo   =37,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_V	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_V    =38,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Van	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Van  =39,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Ve	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Ve   =40,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Vn	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Vn   =41,$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_Wo	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Wo  =19,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Xi	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Xi  =20,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Yi	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Yi  =21,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_ZeroFinal	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_ZeroFinal = 0,	\/**< zero final. indicates invalid final *\/$/;"	e	enum:PinyinFinal
+SCIM_PINYIN_ZeroInitial	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_ZeroInitial = 0,	\/**< zero initial. indicates invaild initial *\/$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_ZeroTone	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_ZeroTone = 0,	\/**< zero tone. this will be matched with all other tones. *\/$/;"	e	enum:PinyinTone
+SCIM_PINYIN_Zhi	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Zhi =23,$/;"	e	enum:PinyinInitial
+SCIM_PINYIN_Zi	inputMethod/scim_pinyin.h	/^	SCIM_PINYIN_Zi  =22,$/;"	e	enum:PinyinInitial
+SCS	parameter.h	/^	double SCS;$/;"	m	struct:boneParameter
+SCS	parameter.h	/^enum curve{BC = 0,AIB = 1,SCS = 2};$/;"	e	enum:curve
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = data.cpp \\$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -sf$/;"	m
+SendKey	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::SendKey(int u , int c)$/;"	f	class:QPinyinFrame
+ShiftCode	inputMethod/PinyinFrame.cpp	/^       ShiftCode, CtrlCode, AltCode, SpaceCode, BackSlash,$/;"	e	enum:__anon1	file:
+ShiftMap	inputMethod/PinyinFrame.cpp	/^struct ShiftMap {$/;"	s	file:
+SpaceCode	inputMethod/PinyinFrame.cpp	/^       ShiftCode, CtrlCode, AltCode, SpaceCode, BackSlash,$/;"	e	enum:__anon1	file:
+SpecialMap	inputMethod/PinyinFrame.cpp	/^typedef struct SpecialMap {$/;"	s	file:
+Sqrt	inputMethod/PinyinFrame.cpp	/^       Percent, Sqrt, Inverse, Escape };$/;"	e	enum:__anon1	file:
+String	inputMethod/scim_pinyin.h	/^typedef std::basic_string<char> String;$/;"	t
+Subtract	inputMethod/PinyinFrame.cpp	/^       Divide, Multiply, Add, Subtract, Decimal, Equal,$/;"	e	enum:__anon1	file:
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = project$/;"	m
+THREAD_H	thread.h	2;"	d
+TabCode	inputMethod/PinyinFrame.cpp	/^enum { BSCode = 0x80, TabCode, CapsCode, RetCode, $/;"	e	enum:__anon1	file:
+Thread	thread.cpp	/^Thread::Thread(bool lhs)$/;"	f	class:Thread
+Thread	thread.h	/^class Thread:public QThread$/;"	c
+ThreadForStart	thread.cpp	/^ThreadForStart::ThreadForStart(QProgressBar* rhs):p(rhs){}$/;"	f	class:ThreadForStart
+ThreadForStart	thread.h	/^class ThreadForStart:public QThread$/;"	c
+UpCode	inputMethod/PinyinFrame.cpp	/^       UpCode, LeftCode, DownCode, RightCode, Blank, Expand,$/;"	e	enum:__anon1	file:
+Uses_C_STDIO	inputMethod/scim_pinyin.cpp	10;"	d	file:
+Uses_SCIM_CONFIG_BASE	inputMethod/scim_pinyin.cpp	14;"	d	file:
+Uses_SCIM_CONFIG_PATH	inputMethod/scim_pinyin.cpp	15;"	d	file:
+Uses_SCIM_ICONV	inputMethod/scim_pinyin.cpp	13;"	d	file:
+Uses_SCIM_LOOKUP_TABLE	inputMethod/scim_pinyin.cpp	16;"	d	file:
+Uses_SCIM_SERVER	inputMethod/scim_pinyin.cpp	12;"	d	file:
+Uses_SCIM_UTILITY	inputMethod/scim_pinyin.cpp	11;"	d	file:
+Uses_STL_ALGORITHM	inputMethod/scim_pinyin.cpp	6;"	d	file:
+Uses_STL_AUTOPTR	inputMethod/scim_pinyin.cpp	1;"	d	file:
+Uses_STL_FSTREAM	inputMethod/scim_pinyin.cpp	5;"	d	file:
+Uses_STL_FUNCTIONAL	inputMethod/scim_pinyin.cpp	2;"	d	file:
+Uses_STL_IOMANIP	inputMethod/scim_pinyin.cpp	9;"	d	file:
+Uses_STL_IOSTREAM	inputMethod/scim_pinyin.cpp	4;"	d	file:
+Uses_STL_MAP	inputMethod/scim_pinyin.cpp	7;"	d	file:
+Uses_STL_UTILITY	inputMethod/scim_pinyin.cpp	8;"	d	file:
+Uses_STL_VECTOR	inputMethod/scim_pinyin.cpp	3;"	d	file:
+VERSION	inputMethod/public.h	14;"	d
+WIN_1_H	win_1.h	7;"	d
+WIN_2_H	win_2.h	6;"	d
+WIN_3_H	win_3.h	6;"	d
+WIN_4_H	win_4.h	6;"	d
+WIN_DATA_H	win_data.h	2;"	d
+WIN_PASSWD_H	win_passwd.h	6;"	d
+WIN_START_H	win_start.h	2;"	d
+WIN_SYSTEM_H	win_system.h	6;"	d
+WIN_VIDEO_H	win_video.h	2;"	d
+WideString	inputMethod/scim_pinyin.h	/^typedef std::basic_string<ucs4_t> WideString;$/;"	t
+Win_1	win_1.cpp	/^Win_1::Win_1(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_1
+Win_1	win_1.h	/^class Win_1:public QWidget$/;"	c
+Win_2	win_2.cpp	/^Win_2::Win_2(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_2
+Win_2	win_2.h	/^class Win_2:public QWidget$/;"	c
+Win_3	win_3.cpp	/^Win_3::Win_3(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_3
+Win_3	win_3.h	/^class Win_3:public QWidget$/;"	c
+Win_4	win_4.cpp	/^Win_4::Win_4(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_4
+Win_4	win_4.h	/^class Win_4:public QWidget$/;"	c
+Win_Start	win_start.cpp	/^Win_Start::Win_Start(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_Start
+Win_Start	win_start.h	/^class Win_Start:public QWidget$/;"	c
+Win_data	win_data.cpp	/^Win_data::Win_data(QWidget *parent,Qt::WindowFlags flags )$/;"	f	class:Win_data
+Win_data	win_data.h	/^class Win_data:public QWidget$/;"	c
+Win_passwd	win_passwd.cpp	/^Win_passwd::Win_passwd(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_passwd
+Win_passwd	win_passwd.h	/^class Win_passwd:public QWidget$/;"	c
+Win_system	win_system.cpp	/^Win_system::Win_system(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_system
+Win_system	win_system.h	/^class Win_system:public QWidget$/;"	c
+Win_video	win_video.cpp	/^Win_video::Win_video(QWidget *parent,Qt::WindowFlags flags)$/;"	f	class:Win_video
+Win_video	win_video.h	/^class Win_video : public QWidget$/;"	c
+YING	inputMethod/PinyinFrame.cpp	/^const unsigned short YING  = 0x82f1;   \/\/Hanzi : English$/;"	v
+ZHONG	inputMethod/PinyinFrame.cpp	/^const unsigned short ZHONG = 0x4e2d;   \/\/Hanzi : Chinese $/;"	v
+__PLAYER_H_	player.h	2;"	d
+__SCIM_PINYIN_H	inputMethod/scim_pinyin.h	2;"	d
+_init_static_list	parameter.h	/^static map<double,frequence_range> _init_static_list()$/;"	f
+abs	parameter.h	/^	double abs()$/;"	f	struct:compx
+absLess	parameter.cpp	/^bool absLess(double elem1,double elem2)$/;"	f
+add_help_products	win_4.cpp	/^void Win_4::add_help_products()$/;"	f	class:Win_4
+add_help_use	win_4.cpp	/^void Win_4::add_help_use()$/;"	f	class:Win_4
+age	data.h	/^	int age;\/\/存放病人年龄$/;"	m	class:Data
+age	draw.h	/^	int age;$/;"	m	class:Draw
+age	draw.h	/^	int age;$/;"	m	struct:points
+aib	draw.h	/^enum valuetype {bc,aib,scs};$/;"	e	enum:valuetype
+aib_value	draw.h	/^	double bc_value,aib_value,scs_value;$/;"	m	class:Draw
+alt	inputMethod/PinyinFrame.h	/^	shift,ctrl,alt,lock,$/;"	m	class:QPinyinFrame
+append	inputMethod/PinyinPhrase.h	/^	inline void append(PinyinPhraseEntry& entry){$/;"	f	class:PinyinPhraseEntry
+append_phrase	inputMethod/PinyinEngine.cpp	/^void PinyinEngine::append_phrase(QString& phrase,const char* pinyin)$/;"	f	class:PinyinEngine
+append_phrase	inputMethod/PinyinPhrase.cpp	/^bool PinyinPhraseTable::append_phrase(PhraseString& str,const char* pinyin)$/;"	f	class:PinyinPhraseTable
+apply_additional_rules	inputMethod/scim_pinyin.cpp	/^PinyinKey::apply_additional_rules (PinyinInitial &initial, PinyinFinal &final)$/;"	f	class:PinyinKey
+backspace_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const backspace_xpm[]={$/;"	v	file:
+bc	draw.h	/^enum valuetype {bc,aib,scs};$/;"	e	enum:valuetype
+bcPrm	data.h	/^	vector<double> bcPrm;$/;"	m	class:Data
+bc_value	draw.h	/^	double bc_value,aib_value,scs_value;$/;"	m	class:Draw
+begin	thread.cpp	/^void Thread::begin()$/;"	f	class:Thread
+beginMeasure	data.cpp	/^void Data::beginMeasure(bool isDymcDsp,double feq)$/;"	f	class:Data
+boneParameter	parameter.h	/^	boneParameter(double lhs,double mhs,double rhs):BC(lhs),AIB(mhs),SCS(rhs){}$/;"	f	struct:boneParameter
+boneParameter	parameter.h	/^struct boneParameter$/;"	s
+box_top	win_1.h	/^	QGroupBox *box_top;$/;"	m	class:Win_1
+button	win_2.h	/^	QPushButton *button;$/;"	m	class:Win_2
+button	win_3.h	/^	QPushButton *button;$/;"	m	class:Win_3
+button	win_4.h	/^	QPushButton *button;$/;"	m	class:Win_4
+button1	win_passwd.h	/^	QPushButton *button1;$/;"	m	class:Win_passwd
+button2	win_passwd.h	/^	QPushButton *button2;$/;"	m	class:Win_passwd
+button_1	win_2.h	/^	QPushButton *button_1;$/;"	m	class:Win_2
+button_2	win_2.h	/^	QPushButton *button_2;$/;"	m	class:Win_2
+button_2	win_3.h	/^	QPushButton *button_2;$/;"	m	class:Win_3
+button_2	win_4.h	/^	QPushButton *button_2;$/;"	m	class:Win_4
+button_2_clicked	win_4.cpp	/^void Win_4::button_2_clicked()$/;"	f	class:Win_4
+button_3	win_2.h	/^	QPushButton *button_3;$/;"	m	class:Win_2
+button_3	win_3.h	/^	QPushButton *button_3;$/;"	m	class:Win_3
+button_3	win_4.h	/^	QPushButton *button_3;$/;"	m	class:Win_4
+button_4	win_2.h	/^	QPushButton *button_4;$/;"	m	class:Win_2
+button_4	win_3.h	/^	QPushButton *button_4;$/;"	m	class:Win_3
+button_4	win_4.h	/^	QPushButton *button_4;$/;"	m	class:Win_4
+button_5	win_3.h	/^	QPushButton *button_5;$/;"	m	class:Win_3
+button_back	sqlite/databaseStand.h	/^	QPushButton *button_back;$/;"	m	class:DatabaseStand
+button_back	win_1.h	/^	QPushButton *button_back;$/;"	m	class:Win_1
+button_clicked	win_4.cpp	/^void Win_4::button_clicked()$/;"	f	class:Win_4
+button_close	win_data.h	/^	QPushButton *button_close;$/;"	m	class:Win_data
+button_conform	win_1.h	/^	QPushButton *button_conform;$/;"	m	class:Win_1
+button_conform_click	moc_win_1.cpp	/^void Win_1::button_conform_click(string _t1, string _t2, sex_bool _t3, int _t4, double _t5, int _t6)$/;"	f	class:Win_1
+button_copy	win_data.h	/^	QPushButton *button_copy;$/;"	m	class:Win_data
+button_correct	win_system.h	/^	QPushButton *button_correct;$/;"	m	class:Win_system
+button_data	win_system.h	/^	QPushButton *button_data;$/;"	m	class:Win_system
+button_database	mainwin.h	/^	QPushButton *button_database;$/;"	m	class:Mainwin
+button_database_click	moc_mainwin.cpp	/^void Mainwin::button_database_click()$/;"	f	class:Mainwin
+button_delete	sqlite/databaseStand.h	/^	QPushButton *button_delete;$/;"	m	class:DatabaseStand
+button_delete	win_data.h	/^	QPushButton *button_delete;$/;"	m	class:Win_data
+button_female	sqlite/databaseStand.h	/^	QPushButton *button_female;$/;"	m	class:DatabaseStand
+button_insert	sqlite/databaseStand.h	/^	QPushButton *button_insert;$/;"	m	class:DatabaseStand
+button_male	sqlite/databaseStand.h	/^	QPushButton *button_male;$/;"	m	class:DatabaseStand
+button_reboot	win_system.h	/^	QPushButton *button_reboot;$/;"	m	class:Win_system
+button_return	win_system.h	/^	QPushButton *button_return;$/;"	m	class:Win_system
+button_shutdown	win_system.h	/^	QPushButton *button_shutdown;$/;"	m	class:Win_system
+button_system	mainwin.h	/^	QPushButton *button_system;$/;"	m	class:Mainwin
+button_system_click	moc_mainwin.cpp	/^void Mainwin::button_system_click()$/;"	f	class:Mainwin
+button_win_1	mainwin.h	/^	QPushButton *button_win_1;$/;"	m	class:Mainwin
+button_win_1_click	moc_mainwin.cpp	/^void Mainwin::button_win_1_click()$/;"	f	class:Mainwin
+button_win_2	mainwin.h	/^	QPushButton *button_win_2;$/;"	m	class:Mainwin
+button_win_2_click	moc_mainwin.cpp	/^void Mainwin::button_win_2_click()$/;"	f	class:Mainwin
+button_win_3	mainwin.h	/^	QPushButton *button_win_3;$/;"	m	class:Mainwin
+button_win_3_click	moc_mainwin.cpp	/^void Mainwin::button_win_3_click()$/;"	f	class:Mainwin
+button_win_4	mainwin.h	/^	QPushButton *button_win_4;$/;"	m	class:Mainwin
+button_win_4_click	moc_mainwin.cpp	/^void Mainwin::button_win_4_click()$/;"	f	class:Mainwin
+calculate_spectrum_ref	parameter.cpp	/^void calculate_spectrum_ref(double feq)$/;"	f
+callback	win_3.cpp	/^int callback(void *pData_tmp,int argc,char **argv,char **azColName)$/;"	f
+callback1	win_3.cpp	/^int callback1(void *pData_tmp,int argc,char **argv,char **azColName)$/;"	f
+canFetchMore	filelistmodel.cpp	/^ bool FileListModel::canFetchMore(const QModelIndex & \/* index *\/) const$/;"	f	class:FileListModel
+cand_width	inputMethod/PinyinFrame.h	/^	short cand_width;$/;"	m	class:QPinyinFrame
+candidates_count	inputMethod/PinyinFrame.h	/^		unsigned int candidates_count;$/;"	m	struct:QPinyinFrame::ime_info_struc
+candidates_on_page	inputMethod/PinyinFrame.h	/^		unsigned int candidates_on_page; \/\/hanzi candidates on current page$/;"	m	struct:QPinyinFrame::ime_info_struc
+candidates_on_prev_page	inputMethod/PinyinFrame.h	/^		unsigned int candidates_on_prev_page; \/\/hanzi candidates on previous page$/;"	m	struct:QPinyinFrame::ime_info_struc
+checkBox	win_2.h	/^	QCheckBox *checkBox;$/;"	m	class:Win_2
+checkedIndexes	mymodel.h	/^	QSet<QModelIndex> checkedIndexes;$/;"	m	class:MyModel
+checkedList	myview.h	/^	QStringList checkedList;$/;"	m	class:MyView
+clear	inputMethod/scim_pinyin.h	/^	void clear () {$/;"	f	class:PinyinEntry
+clear	inputMethod/scim_pinyin.h	/^	void clear () {$/;"	f	class:PinyinTable
+clearHighlight	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::clearHighlight()$/;"	f	class:QPinyinFrame
+clear_key	inputMethod/PinyinEngine.h	/^	inline void clear_key(){$/;"	f	class:PinyinEngine
+clear_key	inputMethod/PinyinPhrase.h	/^	inline void clear_key(){$/;"	f	class:PinyinPhraseKey
+cmask	inputMethod/scim_pinyin.cpp	/^	int     cmask;$/;"	m	struct:utf8_table	file:
+combine_to_bytes	inputMethod/scim_pinyin.h	/^	void combine_to_bytes (unsigned char *bytes) const {$/;"	f	class:PinyinKey
+commit_selection	inputMethod/PinyinFrame.cpp	/^bool QPinyinFrame::commit_selection(int k)$/;"	f	class:QPinyinFrame
+compx	parameter.h	/^	compx(double real_input = 0,double img_input = 0):real(real_input),img(img_input){}$/;"	f	struct:compx
+compx	parameter.h	/^struct compx$/;"	s
+config_file	inputMethod/PinyinFrame.cpp	/^const char config_file[]="\/usr\/local\/InputMethod\/murphytalk.conf";$/;"	v
+conformModify	sqlite/databaseStand.cpp	/^void DatabaseStand::conformModify()$/;"	f	class:DatabaseStand
+conform_modify	sqlite/databaseStand.h	/^	QPushButton *conform_modify;$/;"	m	class:DatabaseStand
+controlCmd	player.cpp	/^void Player::controlCmd(const QString &cmd)$/;"	f	class:Player
+copySelected	myview.cpp	/^void MyView::copySelected()$/;"	f	class:MyView
+correct	win_system.cpp	/^void Win_system::correct()$/;"	f	class:Win_system
+create_pinyin_key_vector_vector	inputMethod/scim_pinyin.cpp	/^PinyinTable::create_pinyin_key_vector_vector (std::vector<PinyinKeyVector> &vv,$/;"	f	class:PinyinTable
+ctrl	inputMethod/PinyinFrame.h	/^	shift,ctrl,alt,lock,$/;"	m	class:QPinyinFrame
+current_value	draw.h	/^	vector<struct points> current_value;$/;"	m	class:Draw
+curve	parameter.h	/^enum curve{BC = 0,AIB = 1,SCS = 2};$/;"	g
+cval	inputMethod/scim_pinyin.cpp	/^	int     cval;$/;"	m	struct:utf8_table	file:
+data	data.h	/^	vector<double> data;\/\/存放超声信号$/;"	m	class:Data
+data	draw.h	/^	vector<double> data;$/;"	m	class:Draw
+data	filelistmodel.cpp	/^ QVariant FileListModel::data(const QModelIndex &index, int role) const$/;"	f	class:FileListModel
+data	mymodel.h	/^	QVariant data(const QModelIndex& index, int role)const$/;"	f	class:MyModel
+data	plotter.h	/^	vector<double> data;$/;"	m	class:Plotter
+data	thread.h	/^	vector<double> data;$/;"	m	class:Thread
+dataPath	parameter.h	/^const string dataPath = "\/usr\/local\/data\/data.txt";$/;"	v
+deep	parameter.h	/^const double deep = 8;\/\/表层皮质骨厚度$/;"	v
+defaultKeyWidth	inputMethod/PinyinFrame.h	/^	defaultKeyWidth,pressedKey,$/;"	m	class:QPinyinFrame
+deleteRecord	sqlite/databaseStand.cpp	/^void DatabaseStand::deleteRecord()$/;"	f	class:DatabaseStand
+deleteSelect	win_data.cpp	/^void Win_data::deleteSelect()$/;"	f	class:Win_data
+deleteSelected	myview.cpp	/^void MyView::deleteSelected()$/;"	f	class:MyView
+delete_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const delete_xpm[]={$/;"	v	file:
+display	draw.cpp	/^void Draw::display()$/;"	f	class:Draw
+display	plotter.cpp	/^void Plotter::display()$/;"	f	class:Plotter
+display	sqlite/databaseStand.cpp	/^void DatabaseStand::display()$/;"	f	class:DatabaseStand
+displayPoint	parameter.h	/^const int displayPoint = 512;$/;"	v
+doublespin_weight	win_1.h	/^	QDoubleSpinBox *doublespin_weight;$/;"	m	class:Win_1
+downarrow_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const downarrow_xpm[]={$/;"	v	file:
+drawCurves	draw.cpp	/^void Draw::drawCurves(QPainter *painter)$/;"	f	class:Draw
+drawCurves	plotter.cpp	/^void Plotter::drawCurves(QPainter *painter)$/;"	f	class:Plotter
+drawGrid	draw.cpp	/^void Draw::drawGrid(QPainter *painter)$/;"	f	class:Draw
+drawGrid	plotter.cpp	/^void Plotter::drawGrid(QPainter *painter)$/;"	f	class:Plotter
+drawKeyboard	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::drawKeyboard( QPainter &p, int key )$/;"	f	class:QPinyinFrame
+drawPoint	draw.cpp	/^void Draw::drawPoint(QPainter *painter)$/;"	f	class:Draw
+driverFilePath	parameter.h	/^const string driverFilePath = "\/dev\/boneDensityDevice";$/;"	v
+dw	win_3.h	/^	Draw *dw;$/;"	m	class:Win_3
+edit_name	win_1.h	/^	QLineEdit *edit_name;$/;"	m	class:Win_1
+edit_number	win_1.h	/^	QLineEdit *edit_number;$/;"	m	class:Win_1
+end_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const end_xpm[]={$/;"	v	file:
+erase	inputMethod/scim_pinyin.cpp	/^PinyinTable::erase (ucs4_t hz, PinyinKey key)$/;"	f	class:PinyinTable
+erase	inputMethod/scim_pinyin.cpp	/^PinyinTable::erase (ucs4_t hz, const char *key)$/;"	f	class:PinyinTable
+erase	inputMethod/scim_pinyin.h	/^	void erase (ucs4_t c) {$/;"	f	class:PinyinEntry
+escape_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const escape_xpm[]={$/;"	v	file:
+expand_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const expand_xpm[]={$/;"	v	file:
+extract_from_bytes	inputMethod/scim_pinyin.h	/^	void extract_from_bytes (unsigned char byte0,$/;"	f	class:PinyinKey
+f_center	parameter.h	/^	double f_center;$/;"	m	struct:frequence_range
+f_max	parameter.h	/^	double f_max;$/;"	m	struct:frequence_range
+f_min	parameter.h	/^	double f_min;$/;"	m	struct:frequence_range
+fd	thread.h	/^	int fd;$/;"	m	class:Thread
+female	parameter.h	/^enum sex_bool{male = 0,female = 1};$/;"	e	enum:sex_bool
+femaleData	sqlite/databaseStand.cpp	/^void DatabaseStand::femaleData()$/;"	f	class:DatabaseStand
+feq	thread.h	/^	unsigned short feq;$/;"	m	class:Thread
+fetchMore	filelistmodel.cpp	/^ void FileListModel::fetchMore(const QModelIndex & \/* index *\/)$/;"	f	class:FileListModel
+fft	parameter.cpp	/^void fft(compx *s,unsigned long N)$/;"	f
+fileCount	filelistmodel.h	/^     int fileCount;$/;"	m	class:FileListModel
+fileFresh	filelistview.cpp	/^void FilelistView::fileFresh()$/;"	f	class:FilelistView
+fileList	filelistmodel.h	/^	 QStringList fileList;$/;"	m	class:FileListModel
+filelist	win_2.h	/^	FilelistView *filelist;$/;"	m	class:Win_2
+filename	filelistview.h	/^ 	QString filename;$/;"	m	class:FilelistView
+filter	inputMethod/PinyinFrame.cpp	/^bool QPinyinFrame::filter (int unicode, int keycode, int modifiers, bool isPress, bool autoRepeat)$/;"	f	class:QPinyinFrame
+filter_FIR	parameter.cpp	/^vector<double> filter_FIR(vector<double>& input,vector<double>& filterCoef)$/;"	f
+filter_IIR	parameter.cpp	/^vector<double> filter_IIR(const vector<double>& input,const vector<long double>& a,const vector<long double>& b)$/;"	f
+final_equal_to	inputMethod/PinyinPhrase.h	/^	bool final_equal_to(PinyinKey lhs,$/;"	f	class:PinyinPhraseKeyLessThan
+find_chars	inputMethod/scim_pinyin.cpp	/^PinyinTable::find_chars (std::vector <ucs4_t> &vec, PinyinKey key) const$/;"	f	class:PinyinTable
+find_chars_with_frequencies	inputMethod/scim_pinyin.cpp	/^PinyinTable::find_chars_with_frequencies (std::vector <CharFrequencyPair> &vec, PinyinKey key) const$/;"	f	class:PinyinTable
+find_exact_entry	inputMethod/scim_pinyin.cpp	/^PinyinTable::find_exact_entry (PinyinKey key)$/;"	f	class:PinyinTable
+find_key_strings	inputMethod/scim_pinyin.cpp	/^PinyinTable::find_key_strings (std::vector<PinyinKeyVector> &vec, const WideString & str)$/;"	f	class:PinyinTable
+find_keys	inputMethod/scim_pinyin.cpp	/^PinyinTable::find_keys (PinyinKeyVector &vec, ucs4_t code)$/;"	f	class:PinyinTable
+find_phrases	inputMethod/PinyinPhrase.cpp	/^unsigned int PinyinPhraseTable::find_phrases(PhraseOffsetFrequencyPairVector& phrases,PinyinPhraseKey& pinyin)$/;"	f	class:PinyinPhraseTable
+first_visible	inputMethod/PinyinFrame.h	/^		unsigned int first_visible; \/\/index of first visible candidate hanzi,start from 0$/;"	m	struct:QPinyinFrame::ime_info_struc
+flag	thread.h	/^	volatile bool flag;$/;"	m	class:Thread
+flagAgeChange	data.h	/^static bool flagAgeChange = false;$/;"	v
+flagParameterChange	data.h	/^static bool flagParameterChange = false;$/;"	v
+flags	mymodel.h	/^	Qt::ItemFlags flags(const QModelIndex & index)const$/;"	f	class:MyModel
+freq_info	parameter.h	/^static map<double,frequence_range> freq_info = _init_static_list();$/;"	v
+frequence_range	parameter.h	/^	frequence_range(double lhs = 0,double mhs = 0,double rhs = 0):f_min(lhs),f_max(mhs),f_center(rhs){}$/;"	f	struct:frequence_range
+frequence_range	parameter.h	/^typedef struct frequence_range$/;"	s
+frequence_range	parameter.h	/^}frequence_range;$/;"	t	typeref:struct:frequence_range
+gate	data.h	/^	double gate;$/;"	m	class:greaterAbs
+gate	parameter.h	/^const double gate = 0.1;$/;"	v
+getData	filelistview.cpp	/^ void FilelistView::getData()$/;"	f	class:FilelistView
+getData	myview.cpp	/^void MyView::getData()$/;"	f	class:MyView
+getKey	inputMethod/PinyinFrame.cpp	/^int getKey( int &w, int j ) {$/;"	f
+getPersonalImfo	moc_win_3.cpp	/^void Win_3::getPersonalImfo()$/;"	f	class:Win_3
+getPersonalImfoACK	data.cpp	/^void Data::getPersonalImfoACK()$/;"	f	class:Data
+get_all_chars	inputMethod/scim_pinyin.h	/^	int get_all_chars (std::vector<ucs4_t> &vec) const {$/;"	f	class:PinyinEntry
+get_all_chars_with_frequencies	inputMethod/scim_pinyin.h	/^	int get_all_chars_with_frequencies (std::vector<CharFrequencyPair> &vec) const {$/;"	f	class:PinyinEntry
+get_all_phrases	inputMethod/PinyinPhrase.cpp	/^unsigned int PinyinPhraseEntry::get_all_phrases(PhraseOffsetFrequencyPairVector& vect)$/;"	f	class:PinyinPhraseEntry
+get_as_int	inputMethod/Config.cpp	/^int Config::get_as_int(const char* key_name)$/;"	f	class:Config
+get_as_string	inputMethod/Config.cpp	/^std::string Config::get_as_string(const char* key_name)$/;"	f	class:Config
+get_char	inputMethod/PinyinEngine.cpp	/^QChar PinyinEngine::get_char(unsigned int index)$/;"	f	class:PinyinEngine
+get_char	inputMethod/PinyinFrame.h	/^	inline QChar get_char(unsigned int nIndex\/*this is global index*\/){$/;"	f	class:QPinyinFrame
+get_char_by_index	inputMethod/scim_pinyin.h	/^	ucs4_t get_char_by_index (unsigned int index) const {$/;"	f	class:PinyinEntry
+get_char_count	inputMethod/PinyinEngine.h	/^	inline unsigned int get_char_count(){$/;"	f	class:PinyinEngine
+get_char_frequency	inputMethod/scim_pinyin.cpp	/^PinyinTable::get_char_frequency (ucs4_t ch, PinyinKey key)$/;"	f	class:PinyinTable
+get_char_frequency	inputMethod/scim_pinyin.h	/^	uint32 get_char_frequency (ucs4_t ch) const {$/;"	f	class:PinyinEntry
+get_char_with_frequency_by_index	inputMethod/scim_pinyin.h	/^	const CharFrequencyPair & get_char_with_frequency_by_index (unsigned int index) const {$/;"	f	class:PinyinEntry
+get_charunicode	inputMethod/PinyinFrame.cpp	/^int QPinyinFrame::get_charunicode(unsigned int nIndexOnPage)$/;"	f	class:QPinyinFrame
+get_end_pos	inputMethod/scim_pinyin.h	/^	int get_end_pos () const { return m_pos + m_length; }$/;"	f	struct:PinyinParsedKey
+get_final	inputMethod/scim_pinyin.h	/^	PinyinFinal get_final () const {$/;"	f	class:PinyinKey
+get_final_string	inputMethod/scim_pinyin.h	/^	const char* get_final_string () const {$/;"	f	class:PinyinKey
+get_formatted_pinyin	inputMethod/PinyinEngine.h	/^	inline String get_formatted_pinyin(){$/;"	f	class:PinyinEngine
+get_initial	inputMethod/scim_pinyin.h	/^	PinyinInitial get_initial () const {$/;"	f	class:PinyinKey
+get_initial_string	inputMethod/scim_pinyin.h	/^	const char* get_initial_string () const {$/;"	f	class:PinyinKey
+get_key	inputMethod/PinyinPhrase.h	/^	inline PinyinPhraseKey& get_key(){$/;"	f	class:PinyinPhraseEntry
+get_key	inputMethod/scim_pinyin.h	/^	PinyinKey get_key () const {$/;"	f	class:PinyinEntry
+get_key_by_index	inputMethod/PinyinPhrase.h	/^	inline PinyinKey& get_key_by_index(unsigned int index){$/;"	f	class:PinyinPhraseKey
+get_key_count	inputMethod/PinyinPhrase.h	/^	inline unsigned int get_key_count(){$/;"	f	class:PinyinPhraseKey
+get_key_string	inputMethod/PinyinPhrase.cpp	/^String PinyinPhraseKey::get_key_string()$/;"	f	class:PinyinPhraseKey
+get_key_string	inputMethod/scim_pinyin.cpp	/^PinyinKey::get_key_string () const$/;"	f	class:PinyinKey
+get_length	inputMethod/scim_pinyin.h	/^	int get_length () const { return m_length; }$/;"	f	struct:PinyinParsedKey
+get_phrase	inputMethod/PinyinEngine.cpp	/^QString PinyinEngine::get_phrase(unsigned int index)$/;"	f	class:PinyinEngine
+get_phrase	inputMethod/PinyinFrame.h	/^	inline QString get_phrase(unsigned int nIndex\/*this is global index*\/){$/;"	f	class:QPinyinFrame
+get_phrases_by_offsets	inputMethod/PinyinPhrase.cpp	/^unsigned int PinyinPhraseTable::get_phrases_by_offsets(PhraseOffsetFrequencyPairVector& phrases_pair,$/;"	f	class:PinyinPhraseTable
+get_pos	inputMethod/scim_pinyin.h	/^	int get_pos () const { return m_pos; }$/;"	f	struct:PinyinParsedKey
+get_tone	inputMethod/scim_pinyin.h	/^	PinyinTone get_tone () const {$/;"	f	class:PinyinKey
+greaterAbs	data.h	/^	greaterAbs(double lhs)$/;"	f	class:greaterAbs
+greaterAbs	data.h	/^class greaterAbs$/;"	c
+groupBox	win_2.h	/^	QGroupBox *groupBox;$/;"	m	class:Win_2
+has_char	inputMethod/scim_pinyin.h	/^	bool has_char (ucs4_t c) const {$/;"	f	class:PinyinEntry
+has_key	inputMethod/scim_pinyin.cpp	/^PinyinTable::has_key (PinyinKey key) const$/;"	f	class:PinyinTable
+has_key	inputMethod/scim_pinyin.cpp	/^PinyinTable::has_key (const char *key) const$/;"	f	class:PinyinTable
+height	data.h	/^	int height;\/\/存放病人身高$/;"	m	class:Data
+hide	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::hide()$/;"	f	class:QPinyinFrame
+hit	inputMethod/PinyinEngine.cpp	/^void PinyinEngine::hit(unsigned int index)$/;"	f	class:PinyinEngine
+hit_test_helper	inputMethod/PinyinFrame.cpp	/^bool hit_test_helper(int x,int y,QRect& rect)$/;"	f
+home_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const home_xpm[]={$/;"	v	file:
+ime_info_struc	inputMethod/PinyinFrame.h	/^		ime_info_struc(){$/;"	f	struct:QPinyinFrame::ime_info_struc
+ime_info_struc	inputMethod/PinyinFrame.h	/^	typedef struct ime_info_struc{$/;"	s	class:QPinyinFrame
+ime_info_t	inputMethod/PinyinFrame.h	/^	}ime_info_t;$/;"	t	class:QPinyinFrame	typeref:struct:QPinyinFrame::ime_info_struc
+img	parameter.h	/^	double img;$/;"	m	struct:compx
+init_gui_dimention	inputMethod/PinyinFrame.cpp	/^int QPinyinFrame::init_gui_dimention()\/\/初始化GUI的尺寸$/;"	f	class:QPinyinFrame
+initialize	inputMethod/scim_pinyin.cpp	/^PinyinValidator::initialize (\/*const PinyinCustomSettings &custom,*\/$/;"	f	class:PinyinValidator
+input	inputMethod/PinyinPhrase.cpp	/^bool PinyinPhraseTable::input (std::istream &is)$/;"	f	class:PinyinPhraseTable
+input	inputMethod/scim_pinyin.cpp	/^PinyinTable::input (std::istream &is)$/;"	f	class:PinyinTable
+inputRight	moc_win_passwd.cpp	/^void Win_passwd::inputRight()$/;"	f	class:Win_passwd
+input_text	inputMethod/PinyinPhrase.cpp	/^std::istream& PinyinPhraseEntry::input_text (std::istream &is)$/;"	f	class:PinyinPhraseEntry
+input_text	inputMethod/scim_pinyin.cpp	/^PinyinEntry::input_text (const PinyinValidator &validator, std::istream &is)$/;"	f	class:PinyinEntry
+input_text	inputMethod/scim_pinyin.cpp	/^PinyinKey::input_text (const PinyinValidator &validator, std::istream &is)$/;"	f	class:PinyinKey
+insert	inputMethod/PinyinPhrase.cpp	/^void PinyinPhraseTable::insert(PinyinPhraseEntry& phrase)$/;"	f	class:PinyinPhraseTable
+insert	inputMethod/PinyinPhrase.h	/^	void insert (const PhraseOffset &ch) {$/;"	f	class:PinyinPhraseEntry
+insert	inputMethod/scim_pinyin.cpp	/^PinyinTable::insert (ucs4_t hz, PinyinKey key)$/;"	f	class:PinyinTable
+insert	inputMethod/scim_pinyin.cpp	/^PinyinTable::insert (ucs4_t hz, const char *key)$/;"	f	class:PinyinTable
+insert	inputMethod/scim_pinyin.h	/^	void insert (const CharFrequencyPair &ch) {$/;"	f	class:PinyinEntry
+insertRecord	sqlite/databaseStand.cpp	/^void DatabaseStand::insertRecord()$/;"	f	class:DatabaseStand
+insert_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const insert_xpm[]={$/;"	v	file:
+isDynamicDisplay	win_2.h	/^	bool isDynamicDisplay;$/;"	m	class:Win_2
+isFilter	thread.h	/^	bool isFilter;$/;"	m	class:Thread
+isPhrase	inputMethod/PinyinEngine.h	/^	inline bool isPhrase(){$/;"	f	class:PinyinEngine
+isSignal	plotter.h	/^	bool isSignal;$/;"	m	class:Plotter
+isValid	inputMethod/PinyinPhrase.h	/^	inline bool isValid(){$/;"	f	class:PinyinPhraseEntry
+isValid	inputMethod/PinyinPhrase.h	/^	inline bool isValid(){$/;"	f	class:PinyinPhraseKey
+isZoomIn	plotter.h	/^	bool isZoomIn; $/;"	m	class:Plotter
+kb_xpm	inputMethod/PinyinFrame.cpp	/^static const char * kb_xpm[] = {$/;"	v	file:
+keyHeight	inputMethod/PinyinFrame.h	/^    	short keyHeight,PickHeight, xoffs, $/;"	m	class:QPinyinFrame
+keyPressEvent	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::keyPressEvent(QKeyEvent*)$/;"	f	class:QPinyinFrame
+keyToSure	data.cpp	/^void Data::keyToSure(string name_tmp,string number_tmp,sex_bool sex_tmp,int height_tmp,double weight_tmp,int age_tmp)$/;"	f	class:Data
+keyboard_opti	inputMethod/PinyinFrame.cpp	/^static const uchar * const keyboard_opti[5] = { $/;"	v	file:
+keyboard_standard	inputMethod/PinyinFrame.cpp	/^static const uchar * const keyboard_standard[5] = {$/;"	v	file:
+keycode	inputMethod/PinyinFrame.cpp	/^static int keycode( int i2, int j, const uchar **keyboard )$/;"	f	file:
+label	inputMethod/PinyinFrame.cpp	/^    const char * label;$/;"	m	struct:SpecialMap	file:
+label	sqlite/databaseStand.h	/^	QLabel *label;$/;"	m	class:DatabaseStand
+label	win_3.h	/^	QLabel *label;$/;"	m	class:Win_3
+label	win_4.h	/^	QLabel *label;$/;"	m	class:Win_4
+label1	win_passwd.h	/^	QLabel *label1;$/;"	m	class:Win_passwd
+label1	win_start.h	/^	QLabel *label1;$/;"	m	class:Win_Start
+label2	win_passwd.h	/^	QLabel *label2;$/;"	m	class:Win_passwd
+label2	win_start.h	/^	QLabel *label2;$/;"	m	class:Win_Start
+label3	win_passwd.h	/^	QLabel *label3;$/;"	m	class:Win_passwd
+label_2	win_3.h	/^	QLabel *label_2;$/;"	m	class:Win_3
+label_3	win_3.h	/^	QLabel *label_3;$/;"	m	class:Win_3
+label_age	win_1.h	/^	QLabel *label_age;$/;"	m	class:Win_1
+label_gif	mainwin.h	/^	QLabel *label_gif;$/;"	m	class:Mainwin
+label_height	win_1.h	/^	QLabel *label_height;$/;"	m	class:Win_1
+label_name	win_1.h	/^	QLabel *label_name;$/;"	m	class:Win_1
+label_number	win_1.h	/^	QLabel *label_number;$/;"	m	class:Win_1
+label_sex	win_1.h	/^	QLabel *label_sex;$/;"	m	class:Win_1
+label_title	mainwin.h	/^	QLabel *label_title;$/;"	m	class:Mainwin
+label_title	win_1.h	/^	QLabel *label_title;$/;"	m	class:Win_1
+label_title	win_system.h	/^	QLabel *label_title;$/;"	m	class:Win_system
+label_weight	win_1.h	/^	QLabel *label_weight;$/;"	m	class:Win_1
+leftarrow_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const leftarrow_xpm[]={$/;"	v	file:
+len	inputMethod/scim_pinyin.h	/^	int len;		\/**< length of ASCII name. *\/$/;"	m	struct:PinyinToken
+len	parameter.h	/^const int len = 2048;$/;"	v
+lineedit1	win_passwd.h	/^	QLineEdit *lineedit1;$/;"	m	class:Win_passwd
+lineedit2	win_passwd.h	/^	QLineEdit *lineedit2;$/;"	m	class:Win_passwd
+list	myview.h	/^	QStringList list;$/;"	m	class:MyView
+lmask	inputMethod/scim_pinyin.cpp	/^	long    lmask;$/;"	m	struct:utf8_table	file:
+load_index	inputMethod/PinyinPhrase.cpp	/^bool PinyinPhraseTable::load_index(const char* indexfile)$/;"	f	class:PinyinPhraseTable
+load_table	inputMethod/scim_pinyin.cpp	/^PinyinTable::load_table (const char *tablefile)$/;"	f	class:PinyinTable
+lock	inputMethod/PinyinFrame.h	/^	shift,ctrl,alt,lock,$/;"	m	class:QPinyinFrame
+lval	inputMethod/scim_pinyin.cpp	/^	long    lval;$/;"	m	struct:utf8_table	file:
+m	win_4.h	/^	Win_video *m;$/;"	m	class:Win_4
+m_about_rect	inputMethod/PinyinFrame.h	/^	QRect m_about_rect;\/*the about text rect*\/$/;"	m	class:QPinyinFrame
+m_bEnglishMode	inputMethod/PinyinFrame.h	/^	bool m_bEnglishMode;$/;"	m	class:QPinyinFrame
+m_bMakingPhrase	inputMethod/PinyinFrame.h	/^	bool m_bMakingPhrase;$/;"	m	class:QPinyinFrame
+m_bShowKeyboard	inputMethod/PinyinFrame.h	/^	bool m_bShowKeyboard;$/;"	m	class:QPinyinFrame
+m_bitmap	inputMethod/scim_pinyin.h	/^	char m_bitmap [PinyinValidatorBitmapSize];$/;"	m	class:PinyinValidator
+m_cand_rect	inputMethod/PinyinFrame.h	/^	QRect m_leftbtn_rect,m_rightbtn_rect,m_cand_rect,m_kbd_rect;$/;"	m	class:QPinyinFrame
+m_chars	inputMethod/PinyinEngine.h	/^	CharVector  m_chars;$/;"	m	class:PinyinEngine
+m_chars	inputMethod/scim_pinyin.h	/^	std::vector <CharFrequencyPair> m_chars;$/;"	m	class:PinyinEntry
+m_engine	inputMethod/PinyinFrame.h	/^	PinyinEngine m_engine;$/;"	m	class:QPinyinFrame
+m_ime_info	inputMethod/PinyinFrame.h	/^	ime_info_t m_ime_info;$/;"	m	class:QPinyinFrame
+m_indicator_rect	inputMethod/PinyinFrame.h	/^	QRect m_indicator_rect\/*for English or Chinese mode*\/;$/;"	m	class:QPinyinFrame
+m_kbd_rect	inputMethod/PinyinFrame.h	/^	QRect m_leftbtn_rect,m_rightbtn_rect,m_cand_rect,m_kbd_rect;$/;"	m	class:QPinyinFrame
+m_kbdbtn_rect	inputMethod/PinyinFrame.h	/^	QRect m_kbdbtn_rect;$/;"	m	class:QPinyinFrame
+m_key	inputMethod/PinyinEngine.h	/^	PinyinPhraseKey   m_key;$/;"	m	class:PinyinEngine
+m_key	inputMethod/PinyinPhrase.h	/^	PinyinPhraseKey			m_key;$/;"	m	class:PinyinPhraseEntry
+m_key	inputMethod/scim_pinyin.h	/^	PinyinKey m_key;$/;"	m	class:PinyinEntry
+m_key_equal	inputMethod/PinyinPhrase.h	/^	PhrasePinyinKeyEqualTo	m_key_equal;$/;"	m	class:PinyinPhraseKey
+m_keys	inputMethod/PinyinPhrase.h	/^	PinyinKey m_keys[2];	$/;"	m	class:PinyinPhraseKey
+m_keys	inputMethod/PinyinPhrase.h	/^        PinyinKeyVector		m_keys;$/;"	m	class:PinyinPhraseKey
+m_last_matched_phrases_range	inputMethod/PinyinPhrase.h	/^     	PinyinPhraseEntryVectorPosRangePair m_last_matched_phrases_range;$/;"	m	class:PinyinPhraseTable
+m_leftbtn_rect	inputMethod/PinyinFrame.h	/^	QRect m_leftbtn_rect,m_rightbtn_rect,m_cand_rect,m_kbd_rect;$/;"	m	class:QPinyinFrame
+m_length	inputMethod/scim_pinyin.h	/^	int m_length;	\/**< the length of string used by this key. *\/$/;"	m	struct:PinyinParsedKey
+m_making_phrase_pinyin	inputMethod/PinyinFrame.h	/^	String     m_making_phrase_pinyin;$/;"	m	class:QPinyinFrame
+m_new_phrases_cache	inputMethod/PinyinPhrase.h	/^	PinyinPhraseEntryVector             m_new_phrases_cache;$/;"	m	class:PinyinPhraseTable
+m_offset_freq_pairs	inputMethod/PinyinEngine.h	/^	PhraseOffsetFrequencyPairVector m_offset_freq_pairs;$/;"	m	class:PinyinEngine
+m_phrase_idx_filename	inputMethod/PinyinEngine.h	/^	String                          m_phrase_idx_filename;$/;"	m	class:PinyinEngine
+m_phrases	inputMethod/PinyinEngine.h	/^	PhraseStringVector              m_phrases;$/;"	m	class:PinyinEngine
+m_phrases	inputMethod/PinyinPhrase.h	/^	PhraseOffsetVector		m_phrases;$/;"	m	class:PinyinPhraseEntry
+m_phrases	inputMethod/PinyinPhrase.h	/^	PinyinPhraseEntryVector             m_phrases;$/;"	m	class:PinyinPhraseTable
+m_phrases_table	inputMethod/PinyinEngine.h	/^       	PinyinPhraseTable               m_phrases_table;$/;"	m	class:PinyinEngine
+m_pinyin_key_equal	inputMethod/scim_pinyin.h	/^	PinyinKeyExactEqualTo m_pinyin_key_equal;$/;"	m	class:PinyinTable
+m_pinyin_key_less	inputMethod/scim_pinyin.h	/^	PinyinKeyExactLessThan m_pinyin_key_less;$/;"	m	class:PinyinTable
+m_pos	inputMethod/scim_pinyin.h	/^	int m_pos;		\/**< the position of this key in the whole string. *\/$/;"	m	struct:PinyinParsedKey
+m_recent_hit_cache	inputMethod/PinyinPhrase.h	/^	PhraseOffsetToFreqMap               m_recent_hit_cache;$/;"	m	class:PinyinPhraseTable
+m_rightbtn_rect	inputMethod/PinyinFrame.h	/^	QRect m_leftbtn_rect,m_rightbtn_rect,m_cand_rect,m_kbd_rect;$/;"	m	class:QPinyinFrame
+m_table	inputMethod/PinyinEngine.h	/^	PinyinTable m_table;$/;"	m	class:PinyinEngine
+m_table	inputMethod/scim_pinyin.h	/^	PinyinEntryVector m_table;$/;"	m	class:PinyinTable
+m_table_filename	inputMethod/PinyinEngine.h	/^	String      m_table_filename;$/;"	m	class:PinyinEngine
+m_validator	inputMethod/scim_pinyin.h	/^	const PinyinValidator *m_validator;$/;"	m	class:PinyinTable
+m_values	inputMethod/Config.h	/^	CONFIG_VALUES m_values;$/;"	m	class:Config
+main	main.cpp	/^int main(int argc,char *argv[])$/;"	f
+male	parameter.h	/^enum sex_bool{male = 0,female = 1};$/;"	e	enum:sex_bool
+maleData	sqlite/databaseStand.cpp	/^void DatabaseStand::maleData()$/;"	f	class:DatabaseStand
+maxX	draw.h	/^	int minX,maxX;$/;"	m	class:Draw
+maxX	plotter.h	/^	double minX,maxX;$/;"	m	class:Plotter
+maxY	draw.h	/^	int minY,maxY;$/;"	m	class:Draw
+maxY	plotter.h	/^	double minY,maxY;$/;"	m	class:Plotter
+metaObject	moc_PinyinFrame.cpp	/^const QMetaObject *QPinyinFrame::metaObject() const$/;"	f	class:QPinyinFrame
+metaObject	moc_data.cpp	/^const QMetaObject *Data::metaObject() const$/;"	f	class:Data
+metaObject	moc_databaseStand.cpp	/^const QMetaObject *DatabaseStand::metaObject() const$/;"	f	class:DatabaseStand
+metaObject	moc_draw.cpp	/^const QMetaObject *Draw::metaObject() const$/;"	f	class:Draw
+metaObject	moc_filelistmodel.cpp	/^const QMetaObject *FileListModel::metaObject() const$/;"	f	class:FileListModel
+metaObject	moc_filelistview.cpp	/^const QMetaObject *FilelistView::metaObject() const$/;"	f	class:FilelistView
+metaObject	moc_mainwin.cpp	/^const QMetaObject *Mainwin::metaObject() const$/;"	f	class:Mainwin
+metaObject	moc_myview.cpp	/^const QMetaObject *MyView::metaObject() const$/;"	f	class:MyView
+metaObject	moc_player.cpp	/^const QMetaObject *Player::metaObject() const$/;"	f	class:Player
+metaObject	moc_plotter.cpp	/^const QMetaObject *Plotter::metaObject() const$/;"	f	class:Plotter
+metaObject	moc_thread.cpp	/^const QMetaObject *Thread::metaObject() const$/;"	f	class:Thread
+metaObject	moc_thread.cpp	/^const QMetaObject *ThreadForStart::metaObject() const$/;"	f	class:ThreadForStart
+metaObject	moc_win_1.cpp	/^const QMetaObject *Win_1::metaObject() const$/;"	f	class:Win_1
+metaObject	moc_win_2.cpp	/^const QMetaObject *Win_2::metaObject() const$/;"	f	class:Win_2
+metaObject	moc_win_3.cpp	/^const QMetaObject *Win_3::metaObject() const$/;"	f	class:Win_3
+metaObject	moc_win_4.cpp	/^const QMetaObject *Win_4::metaObject() const$/;"	f	class:Win_4
+metaObject	moc_win_data.cpp	/^const QMetaObject *Win_data::metaObject() const$/;"	f	class:Win_data
+metaObject	moc_win_passwd.cpp	/^const QMetaObject *Win_passwd::metaObject() const$/;"	f	class:Win_passwd
+metaObject	moc_win_start.cpp	/^const QMetaObject *Win_Start::metaObject() const$/;"	f	class:Win_Start
+metaObject	moc_win_system.cpp	/^const QMetaObject *Win_system::metaObject() const$/;"	f	class:Win_system
+metaObject	moc_win_video.cpp	/^const QMetaObject *Win_video::metaObject() const$/;"	f	class:Win_video
+minX	draw.h	/^	int minX,maxX;$/;"	m	class:Draw
+minX	plotter.h	/^	double minX,maxX;$/;"	m	class:Plotter
+minY	draw.h	/^	int minY,maxY;$/;"	m	class:Draw
+minY	plotter.h	/^	double minY,maxY;$/;"	m	class:Plotter
+model	filelistview.h	/^	 FileListModel *model;$/;"	m	class:FilelistView
+model	myview.h	/^	MyModel *model;$/;"	m	class:MyView
+model	sqlite/databaseStand.h	/^	QSqlTableModel *model;$/;"	m	class:DatabaseStand
+modifiers	inputMethod/PinyinFrame.h	/^	useLargeKeys,useOptiKeys,modifiers,pressed;$/;"	m	class:QPinyinFrame
+mousePressEvent	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::mousePressEvent(QMouseEvent *e) $/;"	f	class:QPinyinFrame
+mousePressEvent	plotter.cpp	/^void Plotter::mousePressEvent(QMouseEvent *event)$/;"	f	class:Plotter
+mouseReleaseEvent	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::mouseReleaseEvent(QMouseEvent* m)$/;"	f	class:QPinyinFrame
+mplayerProcess	player.h	/^	QProcess *mplayerProcess;$/;"	m	class:Player
+msgLabel	win_data.h	/^	QLabel *msgLabel;$/;"	m	class:Win_data
+murphutalk_Phrase_file	inputMethod/PinyinPhrase.cpp	/^static const char murphutalk_Phrase_file         [] =  $/;"	v	file:
+murphytalk_Phrase_index_header	inputMethod/PinyinPhrase.cpp	/^static const char murphytalk_Phrase_index_header [] = "MurphyTalk Pinyin Phrase Index Table";$/;"	v	file:
+murphytalk_Phrase_index_version	inputMethod/PinyinPhrase.cpp	/^static const char murphytalk_Phrase_index_version[] = "Ver";\/\/FILE_VERSION;$/;"	v	file:
+mutex	thread.h	/^	QMutex mutex;$/;"	m	class:Thread
+mutexLock	thread.cpp	/^void Thread::mutexLock()$/;"	f	class:Thread
+mutexUnlock	thread.cpp	/^void Thread::mutexUnlock()$/;"	f	class:Thread
+name	data.h	/^	string name;\/\/存放病人姓名$/;"	m	class:Data
+next_page	inputMethod/PinyinFrame.cpp	/^bool QPinyinFrame::next_page()$/;"	f	class:QPinyinFrame
+next_page_available	inputMethod/PinyinFrame.h	/^		bool next_page_available(){$/;"	f	struct:QPinyinFrame::ime_info_struc
+normal	inputMethod/PinyinFrame.cpp	/^    char normal;$/;"	m	struct:ShiftMap	file:
+numXTicks	draw.h	/^	int numXTicks,numYTicks;$/;"	m	class:Draw
+numXTicks	plotter.h	/^	int numXTicks,numYTicks;$/;"	m	class:Plotter
+numYTicks	draw.h	/^	int numXTicks,numYTicks;$/;"	m	class:Draw
+numYTicks	plotter.h	/^	int numXTicks,numYTicks;$/;"	m	class:Plotter
+number	data.h	/^	string number;\/\/存放病人编号$/;"	m	class:Data
+numberPopulated	moc_filelistmodel.cpp	/^void FileListModel::numberPopulated(int _t1)$/;"	f	class:FileListModel
+number_of_entry	inputMethod/scim_pinyin.h	/^	size_t number_of_entry () const { return m_table.size (); }$/;"	f	class:PinyinTable
+operator !=	inputMethod/PinyinPhrase.h	/^	bool operator != (PinyinPhraseEntry rhs) const {$/;"	f	class:PinyinPhraseEntry
+operator !=	inputMethod/PinyinPhrase.h	/^	bool operator != (PinyinPhraseKey rhs) const {$/;"	f	class:PinyinPhraseKey
+operator !=	inputMethod/scim_pinyin.h	/^	bool operator != (PinyinKey rhs) const {$/;"	f	class:PinyinKey
+operator ()	data.h	/^	bool operator()(double input)$/;"	f	class:greaterAbs
+operator ()	inputMethod/PinyinPhrase.h	/^	bool operator () (PinyinKey lhs,$/;"	f	class:PhrasePinyinKeyEqualTo
+operator ()	inputMethod/PinyinPhrase.h	/^	bool operator () (PinyinPhraseKey lhs,$/;"	f	class:PinyinPhraseKeyLessThan
+operator ()	inputMethod/PinyinPhrase.h	/^	bool operator () (const PhraseOffsetFrequencyPair &lhs,$/;"	f	class:PhraseOffsetFrequencyPairGreaterThanByFrequency
+operator ()	inputMethod/PinyinPhrase.h	/^	bool operator () (const PhraseOffsetFrequencyPair &lhs,$/;"	f	class:PhraseOffsetFrequencyPairGreaterThanByPhraseOffset
+operator ()	inputMethod/PinyinPhrase.h	/^	bool operator () (uint32 lhs,$/;"	f	class:PhraseOffsetFrequencyPairGreaterThanByFrequency
+operator ()	inputMethod/PinyinPhrase.h	/^	bool operator () (uint32 lhs,$/;"	f	class:PhraseOffsetFrequencyPairGreaterThanByPhraseOffset
+operator ()	inputMethod/scim_pinyin.cpp	/^PinyinValidator::operator () (PinyinKey key) const$/;"	f	class:PinyinValidator
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (PinyinKey lhs,$/;"	f	class:PinyinKeyExactEqualTo
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (PinyinKey lhs,$/;"	f	class:PinyinKeyExactLessThan
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (const CharFrequencyPair &lhs,$/;"	f	class:CharFrequencyPairEqualToByChar
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (const CharFrequencyPair &lhs,$/;"	f	class:CharFrequencyPairGreaterThanByChar
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (const CharFrequencyPair &lhs,$/;"	f	class:CharFrequencyPairGreaterThanByCharAndFrequency
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (const CharFrequencyPair &lhs,$/;"	f	class:CharFrequencyPairGreaterThanByFrequency
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (const CharFrequencyPair &lhs,$/;"	f	class:CharFrequencyPairLessThanByChar
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (const CharFrequencyPair &lhs,$/;"	f	class:CharFrequencyPairLessThanByCharAndFrequency
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (const CharFrequencyPair &lhs,$/;"	f	class:CharFrequencyPairLessThanByFrequency
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (ucs4_t lhs,$/;"	f	class:CharFrequencyPairGreaterThanByChar
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (ucs4_t lhs,$/;"	f	class:CharFrequencyPairLessThanByChar
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (uint32 lhs,$/;"	f	class:CharFrequencyPairGreaterThanByFrequency
+operator ()	inputMethod/scim_pinyin.h	/^	bool operator () (uint32 lhs,$/;"	f	class:CharFrequencyPairLessThanByFrequency
+operator *	parameter.h	/^	friend compx operator *(const compx &lhs,const compx &rhs)$/;"	f	struct:compx
+operator <<	inputMethod/PinyinPhrase.cpp	/^std::fstream& operator << (std::fstream& os, uint32& value)$/;"	f
+operator <<	inputMethod/scim_pinyin.h	/^operator << (std::ostream& os, PinyinKey key)$/;"	f
+operator <<	inputMethod/scim_pinyin.h	/^operator << (std::ostream& os, const PinyinEntry &entry)$/;"	f
+operator <<	parameter.h	/^	friend ostream& operator <<(ostream & os,const compx & rhs)$/;"	f	struct:compx
+operator =	inputMethod/PinyinPhrase.h	/^	const PinyinPhraseEntry& operator = (const PinyinPhraseEntry &entry) {$/;"	f	class:PinyinPhraseEntry
+operator =	inputMethod/scim_pinyin.h	/^	const PinyinEntry& operator = (const PinyinEntry &entry) {$/;"	f	class:PinyinEntry
+operator ==	inputMethod/PinyinPhrase.cpp	/^bool operator == (PhraseString& left,PhraseString& right)$/;"	f
+operator ==	inputMethod/PinyinPhrase.h	/^	bool operator == (PinyinPhraseEntry rhs) const {$/;"	f	class:PinyinPhraseEntry
+operator ==	inputMethod/PinyinPhrase.h	/^	bool operator == (PinyinPhraseKey rhs) const {$/;"	f	class:PinyinPhraseKey
+operator ==	inputMethod/scim_pinyin.h	/^	bool operator == (PinyinKey rhs) const {$/;"	f	class:PinyinKey
+operator >>	inputMethod/PinyinPhrase.cpp	/^std::ifstream& operator >> (std::ifstream& is, uint32& value)$/;"	f
+operator PinyinKey	inputMethod/scim_pinyin.h	/^	operator PinyinKey () const {$/;"	f	class:PinyinEntry
+operator PinyinPhraseKey	inputMethod/PinyinPhrase.h	/^	operator PinyinPhraseKey () const {$/;"	f	class:PinyinPhraseEntry
+output	inputMethod/scim_pinyin.cpp	/^PinyinTable::output (std::ostream &os, bool binary) const$/;"	f	class:PinyinTable
+output_text	inputMethod/PinyinPhrase.cpp	/^std::ostream& PinyinPhraseEntry::output_text(std::ostream &os)$/;"	f	class:PinyinPhraseEntry
+output_text	inputMethod/scim_pinyin.cpp	/^PinyinEntry::output_text (std::ostream &os) const$/;"	f	class:PinyinEntry
+output_text	inputMethod/scim_pinyin.cpp	/^PinyinKey::output_text (std::ostream &os) const$/;"	f	class:PinyinKey
+p	thread.h	/^	QProgressBar *p;$/;"	m	class:ThreadForStart
+pagedown_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const pagedown_xpm[]={$/;"	v	file:
+pageup_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const pageup_xpm[]={$/;"	v	file:
+paintEvent	draw.cpp	/^void Draw::paintEvent(QPaintEvent*)$/;"	f	class:Draw
+paintEvent	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::paintEvent(QPaintEvent* e)$/;"	f	class:QPinyinFrame
+paintEvent	plotter.cpp	/^void Plotter::paintEvent(QPaintEvent*)$/;"	f	class:Plotter
+parameter_calculate	parameter.cpp	/^struct boneParameter parameter_calculate(vector<double>& data,double udFeq,vector<double>& spectrum)$/;"	f
+parse_final	inputMethod/scim_pinyin.cpp	/^PinyinKey::parse_final (PinyinFinal &final,$/;"	f	class:PinyinKey
+parse_initial	inputMethod/scim_pinyin.cpp	/^PinyinKey::parse_initial (PinyinInitial &initial,$/;"	f	class:PinyinKey
+parse_key	inputMethod/scim_pinyin.cpp	/^PinyinKey::parse_key (PinyinInitial &initial,$/;"	f	class:PinyinKey
+parse_pinyin_key	inputMethod/scim_pinyin.cpp	/^PinyinKey::parse_pinyin_key (const PinyinValidator &validator,$/;"	f	class:PinyinKey
+parse_tone	inputMethod/scim_pinyin.cpp	/^PinyinKey::parse_tone (PinyinTone &tone,$/;"	f	class:PinyinKey
+pb	win_start.h	/^	QProgressBar *pb;$/;"	m	class:Win_Start
+phrase	inputMethod/PinyinFrame.h	/^		QString      phrase;$/;"	m	struct:QPinyinFrame::ime_info_struc
+phrase_index_file	inputMethod/PinyinFrame.cpp	/^const char phrase_index_file[]="\/usr\/local\/InputMethod\/murphytalk_phrase_idx.txt";$/;"	v
+pi	parameter.h	/^const double pi = 3.1415926;$/;"	v
+pinyin	inputMethod/PinyinFrame.h	/^		String       pinyin;$/;"	m	struct:QPinyinFrame::ime_info_struc
+pix_next	inputMethod/PinyinFrame.cpp	/^static const char * pix_next[] = {$/;"	v	file:
+pix_prev	inputMethod/PinyinFrame.cpp	/^static const char * pix_prev[] = {$/;"	v	file:
+play	player.cpp	/^void Player::play(const QString &fileName)$/;"	f	class:Player
+playButton	win_video.h	/^	QPushButton *playButton;$/;"	m	class:Win_video
+player	win_video.h	/^	Player *player;$/;"	m	class:Win_video
+plotter_1	win_2.h	/^	Plotter *plotter_1;$/;"	m	class:Win_2
+plotter_2	win_2.h	/^	Plotter *plotter_2;$/;"	m	class:Win_2
+pointAge	draw.h	/^	int pointAge;$/;"	m	class:Draw
+pointValue	draw.h	/^	double pointValue;$/;"	m	class:Draw
+points	draw.h	/^	points(int lhs = 0,double rhs = 0):age(lhs),value(rhs){}$/;"	f	struct:points
+points	draw.h	/^	vector<struct points> points;$/;"	m	class:Draw
+points	draw.h	/^struct points$/;"	s
+pressTid	inputMethod/PinyinFrame.h	/^	int pressTid,qkeycode,unicode;$/;"	m	class:QPinyinFrame
+pressed	inputMethod/PinyinFrame.h	/^	useLargeKeys,useOptiKeys,modifiers,pressed;$/;"	m	class:QPinyinFrame
+pressedKey	inputMethod/PinyinFrame.h	/^	defaultKeyWidth,pressedKey,$/;"	m	class:QPinyinFrame
+prev_page	inputMethod/PinyinFrame.cpp	/^bool QPinyinFrame::prev_page()$/;"	f	class:QPinyinFrame
+prev_page_available	inputMethod/PinyinFrame.h	/^		bool prev_page_available(){$/;"	f	struct:QPinyinFrame::ime_info_struc
+printX86	inputMethod/public.h	7;"	d
+printX86	inputMethod/public.h	9;"	d
+prmAIB	data.h	/^	double prmAIB;$/;"	m	class:Data
+prmAIBLast	data.h	/^	double prmAIBLast;$/;"	m	class:Data
+prmBC	data.h	/^	double prmBC;$/;"	m	class:Data
+prmBCLast	data.h	/^	double prmBCLast;$/;"	m	class:Data
+prmSCS	data.h	/^	double prmSCS;$/;"	m	class:Data
+prmSCSLast	data.h	/^	double prmSCSLast;$/;"	m	class:Data
+processToSure	win_passwd.cpp	/^void Win_passwd::processToSure()$/;"	f	class:Win_passwd
+qCleanupResources_resource	qrc_resource.cpp	/^int QT_MANGLE_NAMESPACE(qCleanupResources_resource)()$/;"	f
+qInitResources_resource	qrc_resource.cpp	/^int QT_MANGLE_NAMESPACE(qInitResources_resource)()$/;"	f
+qcode	inputMethod/PinyinFrame.cpp	/^    int qcode;$/;"	m	struct:SpecialMap	file:
+qkeycode	inputMethod/PinyinFrame.h	/^	int pressTid,qkeycode,unicode;$/;"	m	class:QPinyinFrame
+qt_meta_data_Data	moc_data.cpp	/^static const uint qt_meta_data_Data[] = {$/;"	v	file:
+qt_meta_data_DatabaseStand	moc_databaseStand.cpp	/^static const uint qt_meta_data_DatabaseStand[] = {$/;"	v	file:
+qt_meta_data_Draw	moc_draw.cpp	/^static const uint qt_meta_data_Draw[] = {$/;"	v	file:
+qt_meta_data_FileListModel	moc_filelistmodel.cpp	/^static const uint qt_meta_data_FileListModel[] = {$/;"	v	file:
+qt_meta_data_FilelistView	moc_filelistview.cpp	/^static const uint qt_meta_data_FilelistView[] = {$/;"	v	file:
+qt_meta_data_Mainwin	moc_mainwin.cpp	/^static const uint qt_meta_data_Mainwin[] = {$/;"	v	file:
+qt_meta_data_MyView	moc_myview.cpp	/^static const uint qt_meta_data_MyView[] = {$/;"	v	file:
+qt_meta_data_Player	moc_player.cpp	/^static const uint qt_meta_data_Player[] = {$/;"	v	file:
+qt_meta_data_Plotter	moc_plotter.cpp	/^static const uint qt_meta_data_Plotter[] = {$/;"	v	file:
+qt_meta_data_QPinyinFrame	moc_PinyinFrame.cpp	/^static const uint qt_meta_data_QPinyinFrame[] = {$/;"	v	file:
+qt_meta_data_Thread	moc_thread.cpp	/^static const uint qt_meta_data_Thread[] = {$/;"	v	file:
+qt_meta_data_ThreadForStart	moc_thread.cpp	/^static const uint qt_meta_data_ThreadForStart[] = {$/;"	v	file:
+qt_meta_data_Win_1	moc_win_1.cpp	/^static const uint qt_meta_data_Win_1[] = {$/;"	v	file:
+qt_meta_data_Win_2	moc_win_2.cpp	/^static const uint qt_meta_data_Win_2[] = {$/;"	v	file:
+qt_meta_data_Win_3	moc_win_3.cpp	/^static const uint qt_meta_data_Win_3[] = {$/;"	v	file:
+qt_meta_data_Win_4	moc_win_4.cpp	/^static const uint qt_meta_data_Win_4[] = {$/;"	v	file:
+qt_meta_data_Win_Start	moc_win_start.cpp	/^static const uint qt_meta_data_Win_Start[] = {$/;"	v	file:
+qt_meta_data_Win_data	moc_win_data.cpp	/^static const uint qt_meta_data_Win_data[] = {$/;"	v	file:
+qt_meta_data_Win_passwd	moc_win_passwd.cpp	/^static const uint qt_meta_data_Win_passwd[] = {$/;"	v	file:
+qt_meta_data_Win_system	moc_win_system.cpp	/^static const uint qt_meta_data_Win_system[] = {$/;"	v	file:
+qt_meta_data_Win_video	moc_win_video.cpp	/^static const uint qt_meta_data_Win_video[] = {$/;"	v	file:
+qt_meta_stringdata_Data	moc_data.cpp	/^static const char qt_meta_stringdata_Data[] = {$/;"	v	file:
+qt_meta_stringdata_DatabaseStand	moc_databaseStand.cpp	/^static const char qt_meta_stringdata_DatabaseStand[] = {$/;"	v	file:
+qt_meta_stringdata_Draw	moc_draw.cpp	/^static const char qt_meta_stringdata_Draw[] = {$/;"	v	file:
+qt_meta_stringdata_FileListModel	moc_filelistmodel.cpp	/^static const char qt_meta_stringdata_FileListModel[] = {$/;"	v	file:
+qt_meta_stringdata_FilelistView	moc_filelistview.cpp	/^static const char qt_meta_stringdata_FilelistView[] = {$/;"	v	file:
+qt_meta_stringdata_Mainwin	moc_mainwin.cpp	/^static const char qt_meta_stringdata_Mainwin[] = {$/;"	v	file:
+qt_meta_stringdata_MyView	moc_myview.cpp	/^static const char qt_meta_stringdata_MyView[] = {$/;"	v	file:
+qt_meta_stringdata_Player	moc_player.cpp	/^static const char qt_meta_stringdata_Player[] = {$/;"	v	file:
+qt_meta_stringdata_Plotter	moc_plotter.cpp	/^static const char qt_meta_stringdata_Plotter[] = {$/;"	v	file:
+qt_meta_stringdata_QPinyinFrame	moc_PinyinFrame.cpp	/^static const char qt_meta_stringdata_QPinyinFrame[] = {$/;"	v	file:
+qt_meta_stringdata_Thread	moc_thread.cpp	/^static const char qt_meta_stringdata_Thread[] = {$/;"	v	file:
+qt_meta_stringdata_ThreadForStart	moc_thread.cpp	/^static const char qt_meta_stringdata_ThreadForStart[] = {$/;"	v	file:
+qt_meta_stringdata_Win_1	moc_win_1.cpp	/^static const char qt_meta_stringdata_Win_1[] = {$/;"	v	file:
+qt_meta_stringdata_Win_2	moc_win_2.cpp	/^static const char qt_meta_stringdata_Win_2[] = {$/;"	v	file:
+qt_meta_stringdata_Win_3	moc_win_3.cpp	/^static const char qt_meta_stringdata_Win_3[] = {$/;"	v	file:
+qt_meta_stringdata_Win_4	moc_win_4.cpp	/^static const char qt_meta_stringdata_Win_4[] = {$/;"	v	file:
+qt_meta_stringdata_Win_Start	moc_win_start.cpp	/^static const char qt_meta_stringdata_Win_Start[] = {$/;"	v	file:
+qt_meta_stringdata_Win_data	moc_win_data.cpp	/^static const char qt_meta_stringdata_Win_data[] = {$/;"	v	file:
+qt_meta_stringdata_Win_passwd	moc_win_passwd.cpp	/^static const char qt_meta_stringdata_Win_passwd[] = {$/;"	v	file:
+qt_meta_stringdata_Win_system	moc_win_system.cpp	/^static const char qt_meta_stringdata_Win_system[] = {$/;"	v	file:
+qt_meta_stringdata_Win_video	moc_win_video.cpp	/^static const char qt_meta_stringdata_Win_video[] = {$/;"	v	file:
+qt_metacall	moc_PinyinFrame.cpp	/^int QPinyinFrame::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:QPinyinFrame
+qt_metacall	moc_data.cpp	/^int Data::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Data
+qt_metacall	moc_databaseStand.cpp	/^int DatabaseStand::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:DatabaseStand
+qt_metacall	moc_draw.cpp	/^int Draw::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Draw
+qt_metacall	moc_filelistmodel.cpp	/^int FileListModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:FileListModel
+qt_metacall	moc_filelistview.cpp	/^int FilelistView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:FilelistView
+qt_metacall	moc_mainwin.cpp	/^int Mainwin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Mainwin
+qt_metacall	moc_myview.cpp	/^int MyView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MyView
+qt_metacall	moc_player.cpp	/^int Player::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Player
+qt_metacall	moc_plotter.cpp	/^int Plotter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Plotter
+qt_metacall	moc_thread.cpp	/^int Thread::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Thread
+qt_metacall	moc_thread.cpp	/^int ThreadForStart::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ThreadForStart
+qt_metacall	moc_win_1.cpp	/^int Win_1::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_1
+qt_metacall	moc_win_2.cpp	/^int Win_2::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_2
+qt_metacall	moc_win_3.cpp	/^int Win_3::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_3
+qt_metacall	moc_win_4.cpp	/^int Win_4::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_4
+qt_metacall	moc_win_data.cpp	/^int Win_data::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_data
+qt_metacall	moc_win_passwd.cpp	/^int Win_passwd::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_passwd
+qt_metacall	moc_win_start.cpp	/^int Win_Start::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_Start
+qt_metacall	moc_win_system.cpp	/^int Win_system::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_system
+qt_metacall	moc_win_video.cpp	/^int Win_video::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Win_video
+qt_metacast	moc_PinyinFrame.cpp	/^void *QPinyinFrame::qt_metacast(const char *_clname)$/;"	f	class:QPinyinFrame
+qt_metacast	moc_data.cpp	/^void *Data::qt_metacast(const char *_clname)$/;"	f	class:Data
+qt_metacast	moc_databaseStand.cpp	/^void *DatabaseStand::qt_metacast(const char *_clname)$/;"	f	class:DatabaseStand
+qt_metacast	moc_draw.cpp	/^void *Draw::qt_metacast(const char *_clname)$/;"	f	class:Draw
+qt_metacast	moc_filelistmodel.cpp	/^void *FileListModel::qt_metacast(const char *_clname)$/;"	f	class:FileListModel
+qt_metacast	moc_filelistview.cpp	/^void *FilelistView::qt_metacast(const char *_clname)$/;"	f	class:FilelistView
+qt_metacast	moc_mainwin.cpp	/^void *Mainwin::qt_metacast(const char *_clname)$/;"	f	class:Mainwin
+qt_metacast	moc_myview.cpp	/^void *MyView::qt_metacast(const char *_clname)$/;"	f	class:MyView
+qt_metacast	moc_player.cpp	/^void *Player::qt_metacast(const char *_clname)$/;"	f	class:Player
+qt_metacast	moc_plotter.cpp	/^void *Plotter::qt_metacast(const char *_clname)$/;"	f	class:Plotter
+qt_metacast	moc_thread.cpp	/^void *Thread::qt_metacast(const char *_clname)$/;"	f	class:Thread
+qt_metacast	moc_thread.cpp	/^void *ThreadForStart::qt_metacast(const char *_clname)$/;"	f	class:ThreadForStart
+qt_metacast	moc_win_1.cpp	/^void *Win_1::qt_metacast(const char *_clname)$/;"	f	class:Win_1
+qt_metacast	moc_win_2.cpp	/^void *Win_2::qt_metacast(const char *_clname)$/;"	f	class:Win_2
+qt_metacast	moc_win_3.cpp	/^void *Win_3::qt_metacast(const char *_clname)$/;"	f	class:Win_3
+qt_metacast	moc_win_4.cpp	/^void *Win_4::qt_metacast(const char *_clname)$/;"	f	class:Win_4
+qt_metacast	moc_win_data.cpp	/^void *Win_data::qt_metacast(const char *_clname)$/;"	f	class:Win_data
+qt_metacast	moc_win_passwd.cpp	/^void *Win_passwd::qt_metacast(const char *_clname)$/;"	f	class:Win_passwd
+qt_metacast	moc_win_start.cpp	/^void *Win_Start::qt_metacast(const char *_clname)$/;"	f	class:Win_Start
+qt_metacast	moc_win_system.cpp	/^void *Win_system::qt_metacast(const char *_clname)$/;"	f	class:Win_system
+qt_metacast	moc_win_video.cpp	/^void *Win_video::qt_metacast(const char *_clname)$/;"	f	class:Win_video
+qt_resource_data	qrc_resource.cpp	/^static const unsigned char qt_resource_data[] = {$/;"	v	file:
+qt_resource_name	qrc_resource.cpp	/^static const unsigned char qt_resource_name[] = {$/;"	v	file:
+qt_resource_struct	qrc_resource.cpp	/^static const unsigned char qt_resource_struct[] = {$/;"	v	file:
+radioButton	win_2.h	/^	QRadioButton *radioButton;\/\/1.0MHz$/;"	m	class:Win_2
+radioButton_1	win_2.h	/^	QRadioButton *radioButton_1;\/\/2.25MHz$/;"	m	class:Win_2
+radioButton_2	win_2.h	/^	QRadioButton *radioButton_2;\/\/3.5MHz$/;"	m	class:Win_2
+radioButton_3	win_2.h	/^	QRadioButton *radioButton_3;\/\/5.0MHz$/;"	m	class:Win_2
+radioButton_4	win_2.h	/^	QRadioButton *radioButton_4;\/\/6.0MHz$/;"	m	class:Win_2
+radioButton_allSelect	win_data.h	/^	QRadioButton *radioButton_allSelect;$/;"	m	class:Win_data
+radioButton_noneSelect	win_data.h	/^	QRadioButton *radioButton_noneSelect;$/;"	m	class:Win_data
+radio_female	win_1.h	/^	QRadioButton *radio_female;$/;"	m	class:Win_1
+radio_male	win_1.h	/^	QRadioButton *radio_male;$/;"	m	class:Win_1
+real	parameter.h	/^	double real;$/;"	m	struct:compx
+reboot	win_system.cpp	/^void Win_system::reboot()$/;"	f	class:Win_system
+refresh	inputMethod/scim_pinyin.cpp	/^PinyinTable::refresh (ucs4_t hz, uint32 shift, PinyinKey key)$/;"	f	class:PinyinTable
+refresh_char_frequency	inputMethod/scim_pinyin.h	/^	void refresh_char_frequency (ucs4_t ch, uint32 shift) {$/;"	f	class:PinyinEntry
+renderTarget	player.h	/^	QWidget *renderTarget;$/;"	m	class:Player
+repeat	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::repeat()$/;"	f	class:QPinyinFrame
+repeatTimer	inputMethod/PinyinFrame.h	/^	QTimer *repeatTimer;$/;"	m	class:QPinyinFrame
+reset	data.cpp	/^void reset(vector<double>& data,int n)$/;"	f
+resetState	inputMethod/PinyinFrame.h	/^	void resetState(){$/;"	f	class:QPinyinFrame
+resizeEvent	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::resizeEvent(QResizeEvent*)$/;"	f	class:QPinyinFrame
+resizeEvent	player.cpp	/^void Player::resizeEvent(QResizeEvent * event)$/;"	f	class:Player
+rightarrow_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const rightarrow_xpm[]={$/;"	v	file:
+rowCount	filelistmodel.cpp	/^ int FileListModel::rowCount(const QModelIndex & \/* parent *\/) const$/;"	f	class:FileListModel
+run	thread.cpp	/^void Thread::run()$/;"	f	class:Thread
+run	thread.cpp	/^void ThreadForStart::run()$/;"	f	class:ThreadForStart
+sampleFeq	parameter.h	/^const int sampleFeq = 32.0;$/;"	v
+sampleNum	parameter.h	/^const unsigned long sampleNum = 512 * 32;\/\/采样点个数$/;"	v
+save_index	inputMethod/PinyinPhrase.cpp	/^bool PinyinPhraseTable::save_index(const char* indexfile)$/;"	f	class:PinyinPhraseTable
+save_table	inputMethod/PinyinEngine.cpp	/^void PinyinEngine::save_table()$/;"	f	class:PinyinEngine
+save_table	inputMethod/scim_pinyin.cpp	/^PinyinTable::save_table (const char *tablefile, bool binary) const$/;"	f	class:PinyinTable
+scim_default_pinyin_validator	inputMethod/scim_pinyin.cpp	/^const PinyinValidator scim_default_pinyin_validator;$/;"	v
+scim_number_of_finals	inputMethod/scim_pinyin.cpp	/^const int scim_number_of_finals = sizeof (scim_pinyin_finals) \/ sizeof (PinyinToken);$/;"	v
+scim_number_of_initials	inputMethod/scim_pinyin.cpp	/^const int scim_number_of_initials = sizeof (scim_pinyin_initials) \/ sizeof (PinyinToken);$/;"	v
+scim_pinyin_finals	inputMethod/scim_pinyin.cpp	/^const PinyinToken scim_pinyin_finals[] =$/;"	v
+scim_pinyin_initials	inputMethod/scim_pinyin.cpp	/^const PinyinToken scim_pinyin_initials[] =$/;"	v
+scim_pinyin_table_binary_header	inputMethod/scim_pinyin.cpp	/^static const char scim_pinyin_table_binary_header [] = "SCIM_Pinyin_Table_BINARY";$/;"	v	file:
+scim_pinyin_table_text_header	inputMethod/scim_pinyin.cpp	/^static const char scim_pinyin_table_text_header [] = "SCIM_Pinyin_Table_TEXT";$/;"	v	file:
+scim_pinyin_table_version	inputMethod/scim_pinyin.cpp	/^static const char scim_pinyin_table_version [] = "VERSION_0_4";$/;"	v	file:
+screen_rect	inputMethod/PinyinFrame.h	/^	QRect screen_rect;$/;"	m	class:QPinyinFrame
+scs	draw.h	/^enum valuetype {bc,aib,scs};$/;"	e	enum:valuetype
+scs_value	draw.h	/^	double bc_value,aib_value,scs_value;$/;"	m	class:Draw
+search	inputMethod/PinyinEngine.cpp	/^unsigned int PinyinEngine::search(const char* pinyin)$/;"	f	class:PinyinEngine
+search	inputMethod/PinyinFrame.h	/^	inline void search(){		$/;"	f	class:QPinyinFrame
+sendPersonalImfo	moc_data.cpp	/^void Data::sendPersonalImfo(const Data & _t1)$/;"	f	class:Data
+sendPersonalImfoACK	win_3.cpp	/^void Win_3::sendPersonalImfoACK(const Data& dt)$/;"	f	class:Win_3
+send_hanzi_mark	inputMethod/PinyinFrame.cpp	/^bool QPinyinFrame::send_hanzi_mark(int ascii_mark)$/;"	f	class:QPinyinFrame
+sequence	win_3.cpp	/^static int sequence = 0;$/;"	v	file:
+setData	mymodel.h	/^	bool setData(const QModelIndex &index,const QVariant &value, int role)$/;"	f	class:MyModel
+setDirPath	filelistmodel.cpp	/^ void FileListModel::setDirPath(const QString &path)$/;"	f	class:FileListModel
+setFeq	thread.cpp	/^void Thread::setFeq(double input)$/;"	f	class:Thread
+setFilter	thread.cpp	/^void Thread::setFilter(bool lhs)$/;"	f	class:Thread
+setPlotSettings	draw.cpp	/^void Draw::setPlotSettings()$/;"	f	class:Draw
+setPlotSettings	plotter.cpp	/^void Plotter::setPlotSettings()$/;"	f	class:Plotter
+setPrm	win_1.cpp	/^void Win_1::setPrm()$/;"	f	class:Win_1
+set_char_frequency	inputMethod/scim_pinyin.cpp	/^PinyinTable::set_char_frequency (ucs4_t ch, uint32 freq, PinyinKey key)$/;"	f	class:PinyinTable
+set_char_frequency	inputMethod/scim_pinyin.h	/^	void set_char_frequency (ucs4_t ch, uint32 freq) {$/;"	f	class:PinyinEntry
+set_final	inputMethod/scim_pinyin.h	/^	void set_final (PinyinFinal final = SCIM_PINYIN_ZeroFinal) {$/;"	f	class:PinyinKey
+set_frequency	inputMethod/PinyinPhrase.cpp	/^void PinyinPhraseTable::set_frequency(uint32 offset,uint32 freq)$/;"	f	class:PinyinPhraseTable
+set_initial	inputMethod/scim_pinyin.h	/^	void set_initial (PinyinInitial initial = SCIM_PINYIN_ZeroInitial) {$/;"	f	class:PinyinKey
+set_key	inputMethod/PinyinPhrase.cpp	/^void PinyinPhraseKey::set_key(const char *keystr)$/;"	f	class:PinyinPhraseKey
+set_key	inputMethod/scim_pinyin.cpp	/^PinyinKey::set_key (const PinyinValidator &validator,$/;"	f	class:PinyinKey
+set_key	inputMethod/scim_pinyin.h	/^	void set_key (PinyinInitial initial = SCIM_PINYIN_ZeroInitial,$/;"	f	class:PinyinKey
+set_key	inputMethod/scim_pinyin.h	/^	void set_key (PinyinKey key) {$/;"	f	class:PinyinEntry
+set_length	inputMethod/scim_pinyin.h	/^	void set_length (int length) { m_length = length; }$/;"	f	struct:PinyinParsedKey
+set_pos	inputMethod/scim_pinyin.h	/^	void set_pos (int pos) { m_pos = pos; }$/;"	f	struct:PinyinParsedKey
+set_tone	inputMethod/scim_pinyin.h	/^	void set_tone (PinyinTone tone = SCIM_PINYIN_ZeroTone) {$/;"	f	class:PinyinKey
+sex	data.h	/^	sex_bool sex;\/\/存放病人性别$/;"	m	class:Data
+sex_bool	parameter.h	/^enum sex_bool{male = 0,female = 1};$/;"	g
+shift	inputMethod/PinyinFrame.h	/^	shift,ctrl,alt,lock,$/;"	m	class:QPinyinFrame
+shift	inputMethod/scim_pinyin.cpp	/^	int     shift;$/;"	m	struct:utf8_table	file:
+shiftMap	inputMethod/PinyinFrame.cpp	/^static const ShiftMap shiftMap[] = {$/;"	v	file:
+shifted	inputMethod/PinyinFrame.cpp	/^    char shifted;$/;"	m	struct:ShiftMap	file:
+show	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::show()$/;"	f	class:QPinyinFrame
+show	win_2.cpp	/^void Win_2::show()$/;"	f	class:Win_2
+showCurves	draw.cpp	/^void Draw::showCurves()$/;"	f	class:Draw
+showCurves	plotter.cpp	/^void Plotter::showCurves(bool flag)$/;"	f	class:Plotter
+showPersonalImfo	win_3.cpp	/^void Win_3::showPersonalImfo()$/;"	f	class:Win_3
+showPoints	draw.cpp	/^void Draw::showPoints()$/;"	f	class:Draw
+shutdown	win_system.cpp	/^void Win_system::shutdown()$/;"	f	class:Win_system
+signalAutoStop	moc_data.cpp	/^void Data::signalAutoStop()$/;"	f	class:Data
+signalBeginMeasure	moc_win_2.cpp	/^void Win_2::signalBeginMeasure(bool _t1, double _t2)$/;"	f	class:Win_2
+signalClearData	moc_win_2.cpp	/^void Win_2::signalClearData()$/;"	f	class:Win_2
+signalClearShow	moc_myview.cpp	/^void MyView::signalClearShow()$/;"	f	class:MyView
+signalEndMeasure	moc_win_2.cpp	/^void Win_2::signalEndMeasure()$/;"	f	class:Win_2
+signalFilename	moc_filelistview.cpp	/^void FilelistView::signalFilename(const QString & _t1)$/;"	f	class:FilelistView
+signalFilter	moc_win_2.cpp	/^void Win_2::signalFilter(bool _t1)$/;"	f	class:Win_2
+signalImportResult	moc_win_3.cpp	/^void Win_3::signalImportResult()$/;"	f	class:Win_3
+signalImportSuccess	moc_data.cpp	/^void Data::signalImportSuccess()$/;"	f	class:Data
+signalParameterSaveError	moc_data.cpp	/^void Data::signalParameterSaveError()$/;"	f	class:Data
+signalPassFileName	moc_win_2.cpp	/^void Win_2::signalPassFileName(const QString & _t1)$/;"	f	class:Win_2
+signalPassSpectrum	moc_data.cpp	/^void Data::signalPassSpectrum(const vector<double> & _t1)$/;"	f	class:Data
+signalPassWaveform	moc_data.cpp	/^void Data::signalPassWaveform(const vector<double> & _t1)$/;"	f	class:Data
+signalRepeatImportError	moc_data.cpp	/^void Data::signalRepeatImportError()$/;"	f	class:Data
+signalSaveData	moc_win_2.cpp	/^void Win_2::signalSaveData()$/;"	f	class:Win_2
+signalSaveDataSuccess	moc_data.cpp	/^void Data::signalSaveDataSuccess()$/;"	f	class:Data
+signalSaveParameterSuccess	moc_data.cpp	/^void Data::signalSaveParameterSuccess()$/;"	f	class:Data
+signalShow	moc_myview.cpp	/^void MyView::signalShow(QString _t1, Qt::GlobalColor _t2)$/;"	f	class:MyView
+signalShowSpectrum	moc_win_2.cpp	/^void Win_2::signalShowSpectrum()$/;"	f	class:Win_2
+signalStartOk	moc_thread.cpp	/^void ThreadForStart::signalStartOk()$/;"	f	class:ThreadForStart
+signalThreadData	moc_thread.cpp	/^void Thread::signalThreadData(const vector<double> _t1)$/;"	f	class:Thread
+signalToolButtonClick	moc_plotter.cpp	/^void Plotter::signalToolButtonClick()$/;"	f	class:Plotter
+signalZoomIn	moc_plotter.cpp	/^void Plotter::signalZoomIn()$/;"	f	class:Plotter
+signalZoomOut	moc_plotter.cpp	/^void Plotter::signalZoomOut()$/;"	f	class:Plotter
+size	inputMethod/scim_pinyin.cpp	/^PinyinTable::size () const$/;"	f	class:PinyinTable
+size	inputMethod/scim_pinyin.h	/^	size_t size () const {$/;"	f	class:PinyinEntry
+sizeHint	inputMethod/PinyinFrame.cpp	/^QSize QPinyinFrame::sizeHint() const$/;"	f	class:QPinyinFrame
+slotAutoStop	win_2.cpp	/^void Win_2::slotAutoStop()$/;"	f	class:Win_2
+slotBeginMeasure	win_2.cpp	/^void Win_2::slotBeginMeasure()$/;"	f	class:Win_2
+slotClearData	data.cpp	/^void Data::slotClearData()$/;"	f	class:Data
+slotClearData	draw.cpp	/^void Draw::slotClearData()$/;"	f	class:Draw
+slotClearShow	win_data.cpp	/^void Win_data::slotClearShow()$/;"	f	class:Win_data
+slotEndMeasure	data.cpp	/^void Data::slotEndMeasure()$/;"	f	class:Data
+slotEndMeasure	win_2.cpp	/^void Win_2::slotEndMeasure()$/;"	f	class:Win_2
+slotImportResult	data.cpp	/^void Data::slotImportResult()$/;"	f	class:Data
+slotImportResult	win_3.cpp	/^void Win_3::slotImportResult()$/;"	f	class:Win_3
+slotImportSuccess	win_3.cpp	/^void Win_3::slotImportSuccess()$/;"	f	class:Win_3
+slotLoadData	win_2.cpp	/^void Win_2::slotLoadData()$/;"	f	class:Win_2
+slotParameterSaveError	win_2.cpp	/^void Win_2::slotParameterSaveError()$/;"	f	class:Win_2
+slotPassFileName	data.cpp	/^void Data::slotPassFileName(const QString& fileName)$/;"	f	class:Data
+slotPassSpectrum	win_2.cpp	/^void Win_2::slotPassSpectrum(const vector<double>& spectrum)$/;"	f	class:Win_2
+slotPassWaveform	win_2.cpp	/^void Win_2::slotPassWaveform(const vector<double>& waveform)$/;"	f	class:Win_2
+slotPlay	win_video.cpp	/^void Win_video::slotPlay()$/;"	f	class:Win_video
+slotRepeatImportError	win_3.cpp	/^void Win_3::slotRepeatImportError()$/;"	f	class:Win_3
+slotSaveData	data.cpp	/^void Data::slotSaveData()$/;"	f	class:Data
+slotSaveData	win_2.cpp	/^void Win_2::slotSaveData()$/;"	f	class:Win_2
+slotSaveDataSuccess	win_2.cpp	/^void Win_2::slotSaveDataSuccess()$/;"	f	class:Win_2
+slotSaveParameterSuccess	win_1.cpp	/^void Win_1::slotSaveParameterSuccess()$/;"	f	class:Win_1
+slotShow	win_data.cpp	/^void Win_data::slotShow(QString text,Qt::GlobalColor color)$/;"	f	class:Win_data
+slotShowAIBPoints	win_3.cpp	/^void Win_3::slotShowAIBPoints()$/;"	f	class:Win_3
+slotShowAIBStandedCurve	win_3.cpp	/^void Win_3::slotShowAIBStandedCurve()$/;"	f	class:Win_3
+slotShowBCPoints	win_3.cpp	/^void Win_3::slotShowBCPoints()$/;"	f	class:Win_3
+slotShowBCStandedCurve	win_3.cpp	/^void Win_3::slotShowBCStandedCurve()$/;"	f	class:Win_3
+slotShowSCSPoints	win_3.cpp	/^void Win_3::slotShowSCSPoints()$/;"	f	class:Win_3
+slotShowSCSStandedCurve	win_3.cpp	/^void Win_3::slotShowSCSStandedCurve()$/;"	f	class:Win_3
+slotShowSpectrum	data.cpp	/^void Data::slotShowSpectrum()$/;"	f	class:Data
+slotShowSpectrum	win_2.cpp	/^void Win_2::slotShowSpectrum()$/;"	f	class:Win_2
+slotSignalZoomIn	win_2.cpp	/^void Win_2::slotSignalZoomIn()$/;"	f	class:Win_2
+slotSignalZoomOut	win_2.cpp	/^void Win_2::slotSignalZoomOut()$/;"	f	class:Win_2
+slotSpectrumZoomIn	win_2.cpp	/^void Win_2::slotSpectrumZoomIn()$/;"	f	class:Win_2
+slotSpectrumZoomOut	win_2.cpp	/^void Win_2::slotSpectrumZoomOut()$/;"	f	class:Win_2
+slotStop	win_video.cpp	/^void Win_video::slotStop()$/;"	f	class:Win_video
+slotThreadData	data.cpp	/^void Data::slotThreadData(const vector<double> lhs)$/;"	f	class:Data
+slotToolButtonClick	plotter.cpp	/^void Plotter::slotToolButtonClick()$/;"	f	class:Plotter
+sort	inputMethod/scim_pinyin.cpp	/^PinyinTable::sort ()$/;"	f	class:PinyinTable
+sort	inputMethod/scim_pinyin.h	/^	void sort () {$/;"	f	class:PinyinEntry
+specialM	inputMethod/PinyinFrame.cpp	/^static const SpecialMap specialM[] = {$/;"	v	file:
+spectrum	data.h	/^	vector<double> spectrum;\/\/存放超声信号频谱$/;"	m	class:Data
+spectrum_ref	parameter.cpp	/^static vector<double> spectrum_ref;$/;"	v	file:
+spin_age	win_1.h	/^	QSpinBox *spin_age;$/;"	m	class:Win_1
+spin_height	win_1.h	/^	QSpinBox *spin_height;$/;"	m	class:Win_1
+staticMetaObject	moc_PinyinFrame.cpp	/^const QMetaObject QPinyinFrame::staticMetaObject = {$/;"	m	class:QPinyinFrame	file:
+staticMetaObject	moc_data.cpp	/^const QMetaObject Data::staticMetaObject = {$/;"	m	class:Data	file:
+staticMetaObject	moc_databaseStand.cpp	/^const QMetaObject DatabaseStand::staticMetaObject = {$/;"	m	class:DatabaseStand	file:
+staticMetaObject	moc_draw.cpp	/^const QMetaObject Draw::staticMetaObject = {$/;"	m	class:Draw	file:
+staticMetaObject	moc_filelistmodel.cpp	/^const QMetaObject FileListModel::staticMetaObject = {$/;"	m	class:FileListModel	file:
+staticMetaObject	moc_filelistview.cpp	/^const QMetaObject FilelistView::staticMetaObject = {$/;"	m	class:FilelistView	file:
+staticMetaObject	moc_mainwin.cpp	/^const QMetaObject Mainwin::staticMetaObject = {$/;"	m	class:Mainwin	file:
+staticMetaObject	moc_myview.cpp	/^const QMetaObject MyView::staticMetaObject = {$/;"	m	class:MyView	file:
+staticMetaObject	moc_player.cpp	/^const QMetaObject Player::staticMetaObject = {$/;"	m	class:Player	file:
+staticMetaObject	moc_plotter.cpp	/^const QMetaObject Plotter::staticMetaObject = {$/;"	m	class:Plotter	file:
+staticMetaObject	moc_thread.cpp	/^const QMetaObject Thread::staticMetaObject = {$/;"	m	class:Thread	file:
+staticMetaObject	moc_thread.cpp	/^const QMetaObject ThreadForStart::staticMetaObject = {$/;"	m	class:ThreadForStart	file:
+staticMetaObject	moc_win_1.cpp	/^const QMetaObject Win_1::staticMetaObject = {$/;"	m	class:Win_1	file:
+staticMetaObject	moc_win_2.cpp	/^const QMetaObject Win_2::staticMetaObject = {$/;"	m	class:Win_2	file:
+staticMetaObject	moc_win_3.cpp	/^const QMetaObject Win_3::staticMetaObject = {$/;"	m	class:Win_3	file:
+staticMetaObject	moc_win_4.cpp	/^const QMetaObject Win_4::staticMetaObject = {$/;"	m	class:Win_4	file:
+staticMetaObject	moc_win_data.cpp	/^const QMetaObject Win_data::staticMetaObject = {$/;"	m	class:Win_data	file:
+staticMetaObject	moc_win_passwd.cpp	/^const QMetaObject Win_passwd::staticMetaObject = {$/;"	m	class:Win_passwd	file:
+staticMetaObject	moc_win_start.cpp	/^const QMetaObject Win_Start::staticMetaObject = {$/;"	m	class:Win_Start	file:
+staticMetaObject	moc_win_system.cpp	/^const QMetaObject Win_system::staticMetaObject = {$/;"	m	class:Win_system	file:
+staticMetaObject	moc_win_video.cpp	/^const QMetaObject Win_video::staticMetaObject = {$/;"	m	class:Win_video	file:
+stop	thread.cpp	/^void Thread::stop()$/;"	f	class:Thread
+stopButton	win_video.h	/^	QPushButton *stopButton;$/;"	m	class:Win_video
+str	inputMethod/scim_pinyin.h	/^	char str[8];	\/**< ASCII name of the token. *\/$/;"	m	struct:PinyinToken
+table	sqlite/databaseStand.h	/^	QTableView *table;$/;"	m	class:DatabaseStand
+table_file	inputMethod/PinyinFrame.cpp	/^const char table_file[]="\/usr\/local\/InputMethod\/pinyin_table.txt";$/;"	v
+textBrowser	win_3.h	/^	QTextBrowser *textBrowser;$/;"	m	class:Win_3
+textBrowser	win_4.h	/^	QTextBrowser *textBrowser;$/;"	m	class:Win_4
+textBrowser_2	win_3.h	/^	QTextBrowser *textBrowser_2;$/;"	m	class:Win_3
+textBrowser_2	win_4.h	/^	QTextBrowser *textBrowser_2;$/;"	m	class:Win_4
+thread	data.h	/^	Thread thread;$/;"	m	class:Data
+timerEvent	inputMethod/PinyinFrame.cpp	/^void QPinyinFrame::timerEvent(QTimerEvent*e)$/;"	f	class:QPinyinFrame
+toolButtonFlag	plotter.h	/^	bool toolButtonFlag;$/;"	m	class:Plotter
+toolButtonSetting	plotter.cpp	/^void Plotter::toolButtonSetting()$/;"	f	class:Plotter
+trim	inputMethod/public.cpp	/^std::string trim(std::string &str, char ch)$/;"	f
+type	draw.h	/^	valuetype type;$/;"	m	class:Draw
+ucs4_t	inputMethod/scim_pinyin.h	/^typedef unsigned short ucs4_t;$/;"	t
+udFeq	data.h	/^	double udFeq;\/\/存放超声探头频率$/;"	m	class:Data
+uint16	inputMethod/scim_pinyin.h	/^typedef uint16_t uint16;$/;"	t
+uint32	inputMethod/scim_pinyin.h	/^typedef uint32_t uint32;$/;"	t
+uint64	inputMethod/scim_pinyin.h	/^typedef uint64_t uint64;$/;"	t
+unicode	inputMethod/PinyinFrame.cpp	/^    ushort unicode;$/;"	m	struct:SpecialMap	file:
+unicode	inputMethod/PinyinFrame.h	/^	int pressTid,qkeycode,unicode;$/;"	m	class:QPinyinFrame
+uparrow_xpm	inputMethod/PinyinFrame.cpp	/^static const char * const uparrow_xpm[]={$/;"	v	file:
+update	myview.cpp	/^void MyView::update()$/;"	f	class:MyView
+update	win_data.cpp	/^void Win_data::update()$/;"	f	class:Win_data
+useLargeKeys	inputMethod/PinyinFrame.h	/^	useLargeKeys,useOptiKeys,modifiers,pressed;$/;"	m	class:QPinyinFrame
+useOptiKeys	inputMethod/PinyinFrame.cpp	/^int useOptiKeys=0;$/;"	v
+useOptiKeys	inputMethod/PinyinFrame.h	/^	useLargeKeys,useOptiKeys,modifiers,pressed;$/;"	m	class:QPinyinFrame
+utf8_mbstowcs	inputMethod/PinyinPhrase.cpp	/^int utf8_mbstowcs(ucs4_t *pwcs, const __u8 *s, int n)$/;"	f
+utf8_mbtowc	inputMethod/scim_pinyin.cpp	/^utf8_mbtowc(ucs4_t *p, const __u8 *s, int n)$/;"	f
+utf8_table	inputMethod/scim_pinyin.cpp	/^static struct utf8_table utf8_table[] =$/;"	v	typeref:struct:utf8_table	file:
+utf8_table	inputMethod/scim_pinyin.cpp	/^struct utf8_table {$/;"	s	file:
+utf8_wcstombs	inputMethod/PinyinPhrase.cpp	/^int utf8_wcstombs(__u8 *s, const ucs4_t *pwcs, int maxlen)$/;"	f
+utf8_wctomb	inputMethod/scim_pinyin.cpp	/^utf8_wctomb(__u8 *s, ucs4_t wc, int maxlen)$/;"	f
+utf8_write_phase_string	inputMethod/PinyinPhrase.cpp	/^std::ostream& utf8_write_phase_string(std::ostream& os,PhraseString& str)$/;"	f
+utf8_write_wchar	inputMethod/scim_pinyin.cpp	/^utf8_write_wchar (std::ostream &os, ucs4_t wc)$/;"	f
+value	draw.h	/^	double value;$/;"	m	struct:points
+valueSet	win_start.cpp	/^void Win_Start::valueSet(int num)$/;"	f	class:Win_Start
+valuetype	draw.h	/^enum valuetype {bc,aib,scs};$/;"	g
+vel	parameter.h	/^const double vel = 1.5;\/\/超声传播速度$/;"	v
+view	filelistview.h	/^	 QListView *view;$/;"	m	class:FilelistView
+view	win_data.h	/^	MyView *view;$/;"	m	class:Win_data
+waveformButton	plotter.h	/^	QToolButton *waveformButton;$/;"	m	class:Plotter
+weight	data.h	/^	double weight;\/\/存放病人体重$/;"	m	class:Data
+widget	win_3.h	/^	QWidget *widget;$/;"	m	class:Win_3
+widget_2	win_3.h	/^	QWidget *widget_2;$/;"	m	class:Win_3
+winData	win_system.h	/^	Win_data *winData;$/;"	m	class:Win_system
+wlen	inputMethod/scim_pinyin.h	/^       	int wlen;		\/**< length of Chinese name. *\/$/;"	m	struct:PinyinToken
+wstr	inputMethod/scim_pinyin.h	/^       	ucs4_t wstr[4];	\/**< Chinese name in unicode. *\/$/;"	m	struct:PinyinToken
+xoffs	inputMethod/PinyinFrame.h	/^    	short keyHeight,PickHeight, xoffs, $/;"	m	class:QPinyinFrame
+xpm	inputMethod/PinyinFrame.cpp	/^    const char * const *xpm;$/;"	m	struct:SpecialMap	file:
+zero	inputMethod/scim_pinyin.h	/^	bool zero() const {$/;"	f	class:PinyinKey
+~PinyinEngine	inputMethod/PinyinEngine.cpp	/^PinyinEngine::~PinyinEngine()$/;"	f	class:PinyinEngine
+~PinyinPhraseEntry	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseEntry::~PinyinPhraseEntry()$/;"	f	class:PinyinPhraseEntry
+~PinyinPhraseKey	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseKey::~PinyinPhraseKey()$/;"	f	class:PinyinPhraseKey
+~PinyinPhraseTable	inputMethod/PinyinPhrase.cpp	/^PinyinPhraseTable::~PinyinPhraseTable()$/;"	f	class:PinyinPhraseTable
+~Player	player.cpp	/^Player::~Player()$/;"	f	class:Player
+~QPinyinFrame	inputMethod/PinyinFrame.cpp	/^QPinyinFrame::~QPinyinFrame()$/;"	f	class:QPinyinFrame
+~Win_video	win_video.cpp	/^Win_video::~Win_video()$/;"	f	class:Win_video

@@ -1,0 +1,14 @@
+<RCC>
+	<qresource prefix="/">
+		<file>images/openfile.png</file>
+		<file>images/play.png</file>
+		<file>images/pause.png</file>
+		<file>images/stop.png</file>
+		<file>images/step.png</file>
+		<file>images/backward.png</file>
+		<file>images/mute.png</file>
+		<file>images/vocal.png</file>
+		<file>images/start.png</file>
+		<file>images/suspend.png</file>
+	</qresource>
+</RCC>
